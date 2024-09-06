@@ -48,6 +48,29 @@
   padding: 8px !important;
 }
 
+.carousel-product-custom {
+  position: relative;
+}
+
+.quick-add-custom {
+  position: absolute;
+  bottom: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  padding: 4px 0;
+}
+
+.quick-add-custom button {
+  background-color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
 .header__active-menu-item {
   text-decoration-thickness: 0rem;
   text-decoration-color: white;
