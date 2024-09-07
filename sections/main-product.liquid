@@ -670,6 +670,44 @@
 
     </div>
 
+    <div class="description-custom">
+      {%- for block in section.blocks -%}
+        {% if block.type == 'description' %}
+          <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
+            {{ product.description }}
+          </div>
+        {% endif %}
+      {%- endfor -%}
+    </div>
+
+    <script>
+      const description = document.querySelector('.description-custom .product__description');
+      
+      let arrayOfDescription = []
+
+      let prev = null
+      let objTemp = []
+      description.childNodes.forEach((node) => {
+        if (node.innerHTML){
+          objTemp = [
+            ...objTemp,
+            node.innerHTML
+          ]
+        }
+
+        if (node.nextSibling === null || node.nextSibling.nodeName === 'H2') {
+          arrayOfDescription.push(objTemp)
+          objTemp = []
+        }
+
+        prev = node.nodeName
+      });
+
+      arrayOfDescription = arrayOfDescription.slice(1)
+
+      console.log(arrayOfDescription)
+    </script>
+
     {% render 'product-media-modal', variant_images: variant_images %}
 
     {% assign popups = section.blocks | where: 'type', 'popup' %}
