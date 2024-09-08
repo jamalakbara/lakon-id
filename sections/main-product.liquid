@@ -73,11 +73,11 @@
   {%- endif -%}
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
-  <div class="page-width">
+  <div class="">
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
 
       <div class="grid__item product__media-wrapper">
-        {% render 'product-media-gallery', variant_images: variant_images %}
+        {% render 'product-media-gallery-custom', variant_images: variant_images %}
       </div>
       
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -197,12 +197,14 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
+              {% comment %}               
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
                   </div>
                 {%- endif -%}
+               {% endcomment %}
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -669,6 +671,78 @@
       </div>
 
     </div>
+
+    <div class="description-custom page-width-custom">
+      {%- for block in section.blocks -%}
+        {% if block.type == 'description' %}
+          <div class="product__description-custom rte quick-add-hidden" {{ block.shopify_attributes }}>
+            {{ product.description }}
+          </div>
+        {% endif %}
+      {%- endfor -%}
+    </div>
+
+    <script>
+      // initiate description element
+      const description = document.querySelector('.description-custom .product__description-custom');
+
+      const getArrayDescription = (description) => {
+        let arrayOfDescription = []
+        let prev = null
+        let objTemp = []
+
+        description.childNodes.forEach((node) => {
+          if (node.innerHTML){
+            objTemp = [
+              ...objTemp,
+              node.innerHTML
+            ]
+          }
+
+          if (node.nextSibling === null || node.nextSibling.nodeName === 'H2') {
+            arrayOfDescription.push(objTemp)
+            objTemp = []
+          }
+
+          prev = node.nodeName
+        });
+
+        arrayOfDescription = arrayOfDescription.slice(1)
+
+        return arrayOfDescription
+      }
+      
+      // prepare array of description
+      const arrayOfDescription = getArrayDescription(description)
+
+      // clear current content in description
+      description.replaceChildren()
+
+      // create new description element
+      if (arrayOfDescription.length > 0) {
+        arrayOfDescription.forEach((descriptions) => {
+          const div = document.createElement('div')
+          div.classList.add('description-section')
+
+
+          descriptions.forEach((desc, idx) => {
+            // adding desc to div
+            if (idx === 0) {
+              const h2 = document.createElement('h2')
+              h2.innerHTML = desc
+              div.appendChild(h2)
+            }
+            else{
+              const p = document.createElement('p')
+              p.innerHTML = desc
+              div.appendChild(p)
+            }
+          })
+
+          description.appendChild(div)
+        })
+      }
+    </script>
 
     {% render 'product-media-modal', variant_images: variant_images %}
 

@@ -146,42 +146,49 @@
         </div>
       </div>
       {% endcomment %}
+      <div class="carousel-product-custom">
+        <div class="owl-carousel">
+          {% for image in card_product.images %}
+            <figure class="owl-collection-product">
+              <img
+                srcset="
+                  {%- if image.width >= 165 -%}{{ image | image_url: width: 165 }} 165w,{%- endif -%}
+                  {%- if image.width >= 360 -%}{{ image | image_url: width: 360 }} 360w,{%- endif -%}
+                  {%- if image.width >= 533 -%}{{ image | image_url: width: 533 }} 533w,{%- endif -%}
+                  {%- if image.width >= 720 -%}{{ image | image_url: width: 720 }} 720w,{%- endif -%}
+                  {%- if image.width >= 940 -%}{{ image | image_url: width: 940 }} 940w,{%- endif -%}
+                  {%- if image.width >= 1066 -%}{{ image | image_url: width: 1066 }} 1066w,{%- endif -%}
+                  {{ image | image_url }} {{ image.width }}w
+                "
+                src="{{ image | image_url: width: 533 }}"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
+                alt="{{ image.alt | escape }}"
+                class="motion-reduce"
+                {% unless lazy_load == false %}
+                  loading="lazy"
+                {% endunless %}
+                width="{{ image.width }}"
+                height="{{ image.height }}"
+              >
+            </figure>
+          {% endfor %}
+        </div>
 
-      <div class="owl-carousel">
-        {% for image in card_product.images %}
-          <figure class="owl-collection-product">
-            <img
-              srcset="
-                {%- if image.width >= 165 -%}{{ image | image_url: width: 165 }} 165w,{%- endif -%}
-                {%- if image.width >= 360 -%}{{ image | image_url: width: 360 }} 360w,{%- endif -%}
-                {%- if image.width >= 533 -%}{{ image | image_url: width: 533 }} 533w,{%- endif -%}
-                {%- if image.width >= 720 -%}{{ image | image_url: width: 720 }} 720w,{%- endif -%}
-                {%- if image.width >= 940 -%}{{ image | image_url: width: 940 }} 940w,{%- endif -%}
-                {%- if image.width >= 1066 -%}{{ image | image_url: width: 1066 }} 1066w,{%- endif -%}
-                {{ image | image_url }} {{ image.width }}w
-              "
-              src="{{ image | image_url: width: 533 }}"
-              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)"
-              alt="{{ image.alt | escape }}"
-              class="motion-reduce"
-              {% unless lazy_load == false %}
-                loading="lazy"
-              {% endunless %}
-              width="{{ image.width }}"
-              height="{{ image.height }}"
-            >
-          </figure>
-        {% endfor %}
-      </div>
-
-      <div>
-        {% comment %} show variant of this product {% endcomment %}
-        {% for variant in card_product.variants %}
-          {{ variant.title }}
-          {% comment %} {{ variant.price | money }}
-          {{ variant.compare_at_price | money }}
-          {{ variant.available }} {% endcomment %}
-        {% endfor %}
+        <div class="quick-add-custom">
+          {% for variant in card_product.variants %}
+            {% if variant.available %}
+              <form action="/cart/add" method="post">
+                <input type="hidden" name="id" value="{{ variant.id }}">
+                <button type="submit" class="add-to-cart-button">{{ variant.title }}</button>
+              </form>
+              {% else %}
+              <form action="/cart/add" method="post">
+                <input type="hidden" name="id" value="{{ variant.id }}">
+                <button type="submit" class="add-to-cart-button" disabled style="text-decoration: line-through">{{ variant.title }}</button>
+              </form>
+            {% endif %}
+          {% endfor %}
+        </div>
       </div>
 
       <div class="card__content">
