@@ -9,14 +9,60 @@
   font-family: 'TIMESS__', sans-serif !important;
 }
 
+.product__media-list-custom{
+  display: grid;
+  grid-template-columns: repeat(12,minmax(52px,1fr));
+  grid-gap: 2px;
+  margin: 0;
+  padding: 0;
+}
+
+.product__description-custom {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(52px, 1fr));
+  grid-gap: 20px;
+}
+
+.description-section {
+  grid-column: span 6;
+}
+
+.product-media-container.constrain-height {
+  margin: 0;
+  width: 100% !important;
+}
+
+/* for first two children of .product__media-list-custom, it will be assigned with grid-columns = span 6. and then the rest children will be assigend with grid-columns = span (12 / (total rest of the children))  */
+.product__media-list-custom > *:nth-child(-n+2){
+  grid-column: span 6;
+}
+
+.product__media-list-custom > *:nth-child(n+3){
+  grid-column: span 4;
+}
+
+.product__media-list-custom img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product__media-list-custom img:hover{
+  cursor: pointer;
+}
+
 .owl-collection-product{
   margin: 0;
 }
 
-.owl-collection-product img{
+.owl-collection-product img, .product-thumbnail-custom img{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+figure.product-thumbnail-custom{
+  margin: 0;
 }
 
 .owl-carousel .slick-arrow{
@@ -94,6 +140,11 @@
 }
 
 @media screen and (min-width: 750px) {
+  .product--stacked .product__media-item {
+      max-width: 100% !important;
+      width: 100%;
+  }
+
   .card__information {
     padding-bottom: 0 !important;
     padding-top: 0 !important;
