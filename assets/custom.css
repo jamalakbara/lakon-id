@@ -17,6 +17,21 @@
   padding: 0;
 }
 
+.product__description-custom {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(52px, 1fr));
+  grid-gap: 20px;
+}
+
+.description-section {
+  grid-column: span 6;
+}
+
+.product-media-container.constrain-height {
+  margin: 0;
+  width: 100% !important;
+}
+
 /* for first two children of .product__media-list-custom, it will be assigned with grid-columns = span 6. and then the rest children will be assigend with grid-columns = span (12 / (total rest of the children))  */
 .product__media-list-custom > *:nth-child(-n+2){
   grid-column: span 6;
