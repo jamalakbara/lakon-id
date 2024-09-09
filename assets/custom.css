@@ -98,7 +98,11 @@ figure.product-thumbnail-custom{
   position: relative;
 }
 
-.quick-add-custom {
+.product-form__input--swatch .swatch-input__input + .swatch-input__label {
+  --swatch-input--size: 15px !important;
+}
+
+/* .quick-add-custom {
   position: absolute;
   bottom: 8px;
   display: flex;
@@ -115,7 +119,7 @@ figure.product-thumbnail-custom{
   border: none;
   padding: 4px 8px;
   cursor: pointer;
-}
+} */
 
 .header__active-menu-item {
   text-decoration-thickness: 0rem;
