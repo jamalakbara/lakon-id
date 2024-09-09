@@ -117,7 +117,7 @@ figure.product-thumbnail-custom{
   cursor: pointer;
 }
 
-.header__active-menu-item {
+.list-menu span, .list-menu a {
   text-decoration-thickness: 0rem;
   text-decoration-color: white;
   text-shadow: 1px 0px white;
@@ -126,12 +126,12 @@ figure.product-thumbnail-custom{
   text-transform: uppercase;
 }
 
-.page-width-custom {
-    padding: 0 1.5rem;
+.list-menu .header__menu-item:hover span, .list-menu li a:hover {
+  text-shadow: 1px 0px black;
 }
 
-.header__menu-item:hover .header__active-menu-item {
-    text-shadow: 1px 0px black;
+.page-width-custom {
+    padding: 0 1.5rem;
 }
 
 .price{
