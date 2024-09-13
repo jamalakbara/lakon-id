@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner": {
@@ -66,13 +75,74 @@
         "slide_eMKqXH",
         "slide_PKhh9c"
       ],
+      "disabled": true,
       "settings": {
         "slide_duration": 5
+      }
+    },
+    "video_background_4JUa3T": {
+      "type": "video-background",
+      "blocks": {
+        "video_hN4XiA": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b0b0e792db324810a6a4e416d1d94664.mp4",
+            "video_image": "shopify:\/\/shop_images\/LP_Landscape.jpg",
+            "overlay_opacity": 0,
+            "title": "",
+            "text": "",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "video_hN4XiA"
+      ],
+      "settings": {
+      }
+    },
+    "collection_list_dLahLP": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_YNxnig": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "men"
+          }
+        },
+        "featured_collection_jTrzFQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_YNxnig",
+        "featured_collection_jTrzFQ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_banner",
-    "custom_slideshow_6DnhgY"
+    "custom_slideshow_6DnhgY",
+    "video_background_4JUa3T",
+    "collection_list_dLahLP"
   ]
 }
