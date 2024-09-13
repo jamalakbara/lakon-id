@@ -115,8 +115,7 @@
       {%- endif -%}
     </div>
     {%- if card_collection != blank and card_style == 'card' or card_collection.featured_image -%}
-    {% comment %}       
-      <div class="card__content">
+      <div class="card__content" style="opacity:0">
         <div class="card__information">
           <h3 class="card__heading">
             <a
@@ -145,7 +144,6 @@
           {%- endif -%}
         </div>
       </div>
-    {% endcomment %}
     {%- endif -%}
     {%- if card_collection == blank -%}
       <div class="card__content">
