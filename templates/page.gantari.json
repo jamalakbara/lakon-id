@@ -1,10 +1,36 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-gantari",
+      "blocks": {
+        "collections_DE3pTC": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/1_5f84f59b-0e49-459d-98fa-7e9611e1af50.jpg",
+            "image2": "shopify:\/\/shop_images\/1_Belakang_cecbf805-a67f-4b58-9388-f3614fabfe04.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_DE3pTC"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "logo_subtitle": "shopify:\/\/shop_images\/GANTARI.png",
+        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 1 - 2 0 2 2<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>\"The Final Journey to Java\"<\/p><p>​<\/p><p>09 . 10 . 2021<\/p><p>Prambanan Temple, Yogyakarta<\/p><p>Indonesia<\/p><p><strong>This period is very important for history of human civilization<\/strong><\/p><p><strong>We have been given a chance to stop for a moment<\/strong><\/p><p><strong>A chance to realize…<\/strong><\/p><p><strong>Review…<\/strong><\/p><p><strong>And make corrections…<\/strong><\/p><p><strong>So that in the end we can execute everything in a better way<\/strong><\/p><p><strong>And produce works that are maximum and perfect<\/strong><\/p>",
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2021-04-28_at_16.21.50.jpg"
       }
     }
   },
