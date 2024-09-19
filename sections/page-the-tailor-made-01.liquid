@@ -1,13 +1,37 @@
-<div>
-  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" style="text-align: center;">
-    {{ page.title | escape }}
-  </h1>
+<div class="page-width">
+  {% if section.settings.logo_subtitle %}
+    <figure class="custom-page-figure" style="text-align: center;">
+      <img
+        srcset="
+          {%- if section.settings.logo_subtitle.width >= 165 -%}{{ section.settings.logo_subtitle | image_url: width: 165 }} 165w,{%- endif -%}
+          {%- if section.settings.logo_subtitle.width >= 360 -%}{{ section.settings.logo_subtitle | image_url: width: 360 }} 360w,{%- endif -%}
+          {%- if section.settings.logo_subtitle.width >= 533 -%}{{ section.settings.logo_subtitle | image_url: width: 533 }} 533w,{%- endif -%}
+          {%- if section.settings.logo_subtitle.width >= 720 -%}{{ section.settings.logo_subtitle | image_url: width: 720 }} 720w,{%- endif -%}
+          {%- if section.settings.logo_subtitle.width >= 940 -%}{{ section.settings.logo_subtitle | image_url: width: 940 }} 940w,{%- endif -%}
+          {%- if section.settings.logo_subtitle.width >= 1066 -%}{{ section.settings.logo_subtitle | image_url: width: 1066 }} 1066w,{%- endif -%}
+          {{ section.settings.logo_subtitle | image_url }} {{ section.settings.logo_subtitle.width }}w
+        "
+        src="{{ section.settings.logo_subtitle | image_url: width: 533 }}"
+        {% comment %} sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" {% endcomment %}
+        alt="{{ section.settings.logo_subtitle.alt | escape }}"
+        class="motion-reduce"
+        {% unless lazy_load == false %}
+          loading="lazy"
+        {% endunless %}
+        width="{{ section.settings.logo_subtitle.width }}"
+        height="{{ section.settings.logo_subtitle.height }}"
+      >
+    </figure>
+  {% else %}
+    <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" style="text-align: center;">
+      {{ page.title | escape }}
+    </h1>
+  {% endif %}
+  
 
   <h2 class="page-title {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="text-align: center;">
     {%- if section.settings.subtitle != blank -%}
       {{ section.settings.subtitle | escape }}
-    {%- else -%}
-      {{ 'sections.page.title' | t }}
     {%- endif -%}
   </h2>
 
@@ -40,10 +64,6 @@
         height="{{ section.settings.image.height }}"
       >
     </figure>
-  {% else %}
-    <div class="page-placeholder-wrapper placeholder">
-      {{ 'page' | placeholder_svg_tag: 'page-placeholder' }}
-    </div>
   {% endif %}
 
   <div class="page-width page-width--narrow">
@@ -206,6 +226,15 @@
       "type": "text",
       "id": "subtitle",
       "label": "Subtitle"
+    },
+    {
+      "type": "header",
+      "content": "Logo Subtitle"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo_subtitle",
+      "label": "Logo Subtitle"
     },
     {
       "type": "header",
