@@ -1,10 +1,35 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-pasar-malam",
+      "blocks": {
+        "collections_Ek7QHD": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/01_FRONT.jpg",
+            "image2": "shopify:\/\/shop_images\/01_BACK.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_Ek7QHD"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "logo_subtitle": "shopify:\/\/shop_images\/Logo_Pasar_Malam_Alt2_copy_4.png",
+        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 4 - 2 0 2 5 <\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>\"Lakon Indonesia\"<\/p><p>Irsan 7th Collection for Lakon Indonesia<\/p><p>​<\/p><p>30 . 07 . 2024<\/p><p>Summarecon Mall Serpong, Jakarta<\/p><p>Indonesia<\/p>"
       }
     }
   },
