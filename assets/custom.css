@@ -9,6 +9,46 @@
   font-family: 'TIMESS__', sans-serif !important;
 }
 
+.custom-page-figure{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.custom-page-figure img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-slide-page-custom{
+  display: grid;
+  grid-template-columns: repeat(12,minmax(52px,1fr));
+  grid-gap: 15px;
+}
+
+.container-slide-page-custom .collection-slide-dude{
+  grid-column: span 3;
+  position: relative;
+}
+
+.container-slide-page-custom .collection-slide-dude .collection-slide-dude__content{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255,255,255, 0.5);
+  padding: 4px 8px;
+  text-align: center;
+  z-index: 100;
+  width: 100%;
+}
+
+.collection-slide-dude__content h2{
+  margin: 0;
+}
+
 .info-with-icon__child {
   display: flex;
   grid-gap: 10px;
@@ -126,7 +166,7 @@
   margin: 0;
 }
 
-.owl-collection-product img, .product-thumbnail-custom img{
+.owl-collection-product img, .product-thumbnail-custom img, .slide-page-custom img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -136,15 +176,16 @@ figure.product-thumbnail-custom{
   margin: 0;
 }
 
-.owl-carousel .slick-arrow{
+.owl-carousel .slick-arrow, .slide-page-custom .slick-arrow, .collection-slide-dude .collection-slide-dude__content{
   opacity: 0;
+  transition: 0.3s;
 }
 
-.owl-carousel:hover .slick-arrow{
+.owl-carousel:hover .slick-arrow, .slide-page-custom:hover .slick-arrow, .collection-slide-dude:hover .collection-slide-dude__content{
     opacity: 1;
 }
 
-.owl-carousel .slick-arrow, .custom-slideshow--mobile .slick-arrow, .product-carousel-custom .slick-arrow{
+.owl-carousel .slick-arrow, .custom-slideshow--mobile .slick-arrow, .product-carousel-custom .slick-arrow, .slide-page-custom .slick-arrow{
   position: absolute;
   z-index: 100;
   bottom: 50%;
@@ -162,11 +203,11 @@ figure.product-thumbnail-custom{
   transition: 0.3s;
 }
 
-.owl-carousel .slick-prev, .custom-slideshow--mobile .slick-prev, .product-carousel-custom .slick-prev{
+.owl-carousel .slick-prev, .custom-slideshow--mobile .slick-prev, .product-carousel-custom .slick-prev, .slide-page-custom .slick-prev{
   left: 0;
 }
 
-.owl-carousel .slick-next, .custom-slideshow--mobile .slick-next, .product-carousel-custom .slick-next{
+.owl-carousel .slick-next, .custom-slideshow--mobile .slick-next, .product-carousel-custom .slick-next, .slide-page-custom .slick-next{
   right: 0;
 }
 

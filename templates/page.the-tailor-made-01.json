@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-the-tailor-made-01",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
