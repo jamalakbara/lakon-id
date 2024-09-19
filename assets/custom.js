@@ -5,6 +5,11 @@ $(document).ready(function(){
     nextArrow: '<button type="button" class="slick-next">→</button>',
   });
 
+  $('.slide-page-custom').slick({
+    prevArrow: '<button type="button" class="slick-prev">←</button>',
+    nextArrow: '<button type="button" class="slick-next">→</button>',
+  });
+
   $('.custom-slideshow--desktop').slick({
     arrows: false,
     autoplay: true,
