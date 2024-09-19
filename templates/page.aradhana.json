@@ -1,10 +1,36 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-aradhana",
+      "blocks": {
+        "collections_nyfpwj": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/1_8e73d7e7-fac8-4cbd-b4a2-89f32c4790e0.jpg",
+            "image2": "shopify:\/\/shop_images\/1_Belakang_c9c8a6e8-a9fb-45fa-81a1-87008da9becd.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_nyfpwj"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "logo_subtitle": "shopify:\/\/shop_images\/ARADHANA.png",
+        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 1 - 2 0 2 2<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>​\"Seen and Unseen\"<\/p><p>​<\/p><p>11 . 11 . 2021<\/p><p>Gedung SMESCO Indonesia, Jakarta<\/p><p>Indonesia<\/p><p><strong>Is about all efforts that happen behind the scenes…<\/strong><\/p><p><strong>Which essentially takes up a huge portion and requires a large amount of energy<\/strong><\/p><p><strong>Whatever happens there… cannot be disregarded<\/strong><\/p><p><strong>It is where all the stories are often missed by the eyes are kept…<\/strong><\/p><p><strong>The most important is… its meaning for knowledge<\/strong><\/p><p><strong> <\/strong><\/p><p><strong>This journey is a different step for Lakon Indonesia<\/strong><\/p><p><strong>It is a part of our journey in sharing the stories and knowledge that have been gathered through our previous journeys, so that more people can enjoy the outcome<\/strong><\/p><p><strong>For the future of Culture and Tradition… and the continuity of life…<\/strong><\/p>",
+        "image": "shopify:\/\/shop_images\/WEB_BANNER_05_edited.jpg"
       }
     }
   },
