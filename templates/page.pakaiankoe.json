@@ -1,10 +1,36 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-pakaiankoe",
+      "blocks": {
+        "collections_jxfLMz": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/1_36383e22-d8b8-432f-b188-e8fc98af29d7.jpg",
+            "image2": "shopify:\/\/shop_images\/1_Belakang_f96f6799-acc0-43fc-ac94-bfb510a8bba9.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_jxfLMz"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "logo_subtitle": "shopify:\/\/shop_images\/PAKAIANKOE.png",
+        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 0 - 2 0 2 1<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>A  J o u r n e y   t o   J a v a <\/p><p> <\/p><p>15 . 11 . 2020<br\/>ASHTA, Distric 8, SCBD, Jakarta<\/p><p>Indonesia<\/p><p><strong> There is a story that is starting to be forgotten…<\/strong><\/p><p><strong>Something that was once very close to its people…<\/strong><\/p><p><strong>called  T r a d i t i o n  and  C u l t u r e<\/strong><\/p><p><strong>Delving into and reassembling the principle that was once a basis and pride<\/strong><\/p><p><strong>Bringing it back into  D A I L Y  L I V E S<\/strong><\/p>",
+        "image": "shopify:\/\/shop_images\/WEB_BANNER_CIRCLO_MOCKUP_07.jpg"
       }
     }
   },
