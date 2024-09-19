@@ -291,7 +291,25 @@ figure.product-thumbnail-custom{
   width: 100%;
 }
 
+.card__information fieldset{
+  margin-bottom: 0;
+  margin-top: -25px;
+}
+
 @media screen and (max-width: 749px) {
+  /* .card__content{
+    margin-top: -35px;
+  } */
+
+  .menu-drawer__menu-item {
+    text-transform: uppercase;
+    font-size: 14px !important;
+  }
+  
+  .menu-drawer__close-button{
+    text-transform: uppercase;
+  }
+
   .info-with-icon__child {
     display: none;
   }
