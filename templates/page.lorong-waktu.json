@@ -1,10 +1,36 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-lorong-waktu",
+      "blocks": {
+        "collections_Jt3MQH": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/1.jpg",
+            "image2": "shopify:\/\/shop_images\/1_Belakang.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_Jt3MQH"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "logo_subtitle": "shopify:\/\/shop_images\/LORONG_WAKTU.png",
+        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 2 - 2 0 2 3<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>\"Lakon Indonesia x Cahyo\"<\/p><p>Irsan 5th Collection for Lakon Indonesia<\/p><p>​<\/p><p>06 . 09 . 2022<\/p><p>Tenda LaPiazza Kelapa Gading, Jakarta<\/p><p>Indonesia<\/p><p><strong>Everything that is done with the H E A R T will give S O U L<\/strong><\/p><p><strong>​<\/strong><\/p><p><strong>And enliven the W O R K<\/strong><\/p><p><strong> <\/strong><\/p><p><strong>A work that has Soul will open countless doors<\/strong><\/p><p><strong>​<\/strong><\/p><p><strong>In the end… it brings itself in a JOURNEY TRHOUGH TIME that knows no limits<\/strong><\/p><p><strong>​<\/strong><\/p><p><strong>Indeed, E T E R N I T Y is not of mortals.<\/strong><\/p>",
+        "image": "shopify:\/\/shop_images\/LAKON_Lorong_Waktu_2022-832_edited.jpg"
       }
     }
   },
