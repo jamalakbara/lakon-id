@@ -1,10 +1,35 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-the-tailor-made-01",
+      "blocks": {
+        "collections_7LHpT4": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_01_-_ASYMETRICAL_MIDI_DRESS_BEDAZZLED_LEGGING_PANTS.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_7LHpT4"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "content": "<h4>Men's \/ Women's Collection<\/h4><h4>Made To Order<\/h4><h4>2023-24<\/h4>",
+        "image": "shopify:\/\/shop_images\/THE_TAILOR_MADE_01.png"
       }
     }
   },
