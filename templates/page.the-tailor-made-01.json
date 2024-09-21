@@ -47,7 +47,33 @@
         "collections_VKcEeG": {
           "type": "collections",
           "settings": {
-            "title": ""
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_05_-_LONG_SLEEVES_FITTED_HIGHNECK_DRESS_WITH_FRONT_CUTOUT.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_5.jpg"
+          }
+        },
+        "collections_bdQPEA": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_06_-_FLORAL_EMBROIDERY_DRESS_BEDAZZLED_LEGGING_PANTS.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_6.jpg"
+          }
+        },
+        "collections_MxtYCh": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_07_-_LONG_OVERSIZED_SLEEVELESS_SWEATER_DRESS.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_7.jpg"
+          }
+        },
+        "collections_NHBTMR": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_08_-_LONG_SLEEVES_HIGH_COLLAR_MAXI_DRESS.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_8.jpg"
           }
         }
       },
@@ -56,7 +82,10 @@
         "collections_CUGwUm",
         "collections_7UqkgW",
         "collections_tXUwa7",
-        "collections_VKcEeG"
+        "collections_VKcEeG",
+        "collections_bdQPEA",
+        "collections_MxtYCh",
+        "collections_NHBTMR"
       ],
       "settings": {
         "padding_top": 28,
