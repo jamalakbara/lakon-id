@@ -75,6 +75,14 @@
             "image1": "shopify:\/\/shop_images\/TTM01_08_-_LONG_SLEEVES_HIGH_COLLAR_MAXI_DRESS.jpg",
             "image2": "shopify:\/\/shop_images\/TTM01_8.jpg"
           }
+        },
+        "collections_Cm4CtT": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_09_-_MAXI_FITTED_SLEEVELESS_HATLER_DRESS.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_9.jpg"
+          }
         }
       },
       "block_order": [
@@ -85,7 +93,8 @@
         "collections_VKcEeG",
         "collections_bdQPEA",
         "collections_MxtYCh",
-        "collections_NHBTMR"
+        "collections_NHBTMR",
+        "collections_Cm4CtT"
       ],
       "settings": {
         "padding_top": 28,
