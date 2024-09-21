@@ -58,15 +58,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "collapsible_tab_Mji9t4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Size Chart",
-            "icon": "none",
-            "content": "",
-            "page": "size-chart"
-          }
         }
       },
       "block_order": [
@@ -77,8 +68,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "collapsible_tab_Mji9t4"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
