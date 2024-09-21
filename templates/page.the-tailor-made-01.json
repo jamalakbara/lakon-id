@@ -255,7 +255,17 @@
         "collections_AYW3Pz": {
           "type": "collections",
           "settings": {
-            "title": "31"
+            "title": "31",
+            "image1": "shopify:\/\/shop_images\/Untitled_design_2.png",
+            "image2": "shopify:\/\/shop_images\/TTM01_31.jpg"
+          }
+        },
+        "collections_VpjxPb": {
+          "type": "collections",
+          "settings": {
+            "title": "32",
+            "image1": "shopify:\/\/shop_images\/TTM01_31_-_ONE_SHOULDER_ANKLE_DRESS_WITH_TASSEL_PLEATED_TUTU_SKIRT.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_32.jpg"
           }
         }
       },
@@ -290,7 +300,8 @@
         "collections_7kHmMa",
         "collections_jhXKVA",
         "collections_RTdngK",
-        "collections_AYW3Pz"
+        "collections_AYW3Pz",
+        "collections_VpjxPb"
       ],
       "settings": {
         "padding_top": 28,
