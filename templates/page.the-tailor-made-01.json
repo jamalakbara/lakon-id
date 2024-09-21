@@ -211,6 +211,30 @@
             "image1": "shopify:\/\/shop_images\/TTM01_25_-_MIDI_ASYMETRICAL_JERSEY_DRESS_FURRY_SHAWL.jpg",
             "image2": "shopify:\/\/shop_images\/TTM01_25.jpg"
           }
+        },
+        "collections_fAeiUb": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_26_-_LONG_FITTED_SLEEVELESS_DRESS_WITH_DETACHABLE_BOW.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_26.jpg"
+          }
+        },
+        "collections_tBBzEB": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_27_-_HIGH_COLLAR_WAIST_FITTED_DRESS_WITH_DRAPE_DETAIL.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_27.jpg"
+          }
+        },
+        "collections_7kHmMa": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_28_-_LONG_WAIST_FITTED_DRESS_WITH_DRAPE_ON_WAIST.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_28.jpg"
+          }
         }
       },
       "block_order": [
@@ -238,7 +262,10 @@
         "collections_dVXw8E",
         "collections_YVcTMV",
         "collections_hiDRyC",
-        "collections_gQY9Dg"
+        "collections_gQY9Dg",
+        "collections_fAeiUb",
+        "collections_tBBzEB",
+        "collections_7kHmMa"
       ],
       "settings": {
         "padding_top": 28,
