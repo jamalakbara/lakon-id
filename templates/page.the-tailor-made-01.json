@@ -203,6 +203,14 @@
             "image1": "shopify:\/\/shop_images\/TTM01_24_-_MAXI_SLEEVELESS_DRESS_AND_TIED-UP_BOW_AT_THE_SHOULDER.jpg",
             "image2": "shopify:\/\/shop_images\/TTM01_24.jpg"
           }
+        },
+        "collections_gQY9Dg": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_25_-_MIDI_ASYMETRICAL_JERSEY_DRESS_FURRY_SHAWL.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_25.jpg"
+          }
         }
       },
       "block_order": [
@@ -229,7 +237,8 @@
         "collections_TgWwU7",
         "collections_dVXw8E",
         "collections_YVcTMV",
-        "collections_hiDRyC"
+        "collections_hiDRyC",
+        "collections_gQY9Dg"
       ],
       "settings": {
         "padding_top": 28,
