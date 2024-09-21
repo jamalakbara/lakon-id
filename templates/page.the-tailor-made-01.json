@@ -235,6 +235,14 @@
             "image1": "shopify:\/\/shop_images\/TTM01_28_-_LONG_WAIST_FITTED_DRESS_WITH_DRAPE_ON_WAIST.jpg",
             "image2": "shopify:\/\/shop_images\/TTM01_28.jpg"
           }
+        },
+        "collections_jhXKVA": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_29_-_HIGH_COLLAR_SHIRT_WITH_FLORAL_EMBROIDERY_LONG_STRAIGHT_TROUSER_PANTS.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_29.jpg"
+          }
         }
       },
       "block_order": [
@@ -265,7 +273,8 @@
         "collections_gQY9Dg",
         "collections_fAeiUb",
         "collections_tBBzEB",
-        "collections_7kHmMa"
+        "collections_7kHmMa",
+        "collections_jhXKVA"
       ],
       "settings": {
         "padding_top": 28,
