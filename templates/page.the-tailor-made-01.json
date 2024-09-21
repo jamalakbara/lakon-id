@@ -19,10 +19,17 @@
             "image1": "shopify:\/\/shop_images\/TTM01_01_-_ASYMETRICAL_MIDI_DRESS_BEDAZZLED_LEGGING_PANTS.jpg",
             "image2": "shopify:\/\/shop_images\/TTM01_1.jpg"
           }
+        },
+        "collections_CUGwUm": {
+          "type": "collections",
+          "settings": {
+            "title": ""
+          }
         }
       },
       "block_order": [
-        "collections_7LHpT4"
+        "collections_7LHpT4",
+        "collections_CUGwUm"
       ],
       "settings": {
         "padding_top": 28,
