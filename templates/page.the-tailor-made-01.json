@@ -23,13 +23,40 @@
         "collections_CUGwUm": {
           "type": "collections",
           "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_02_-_ASYMETRICAL_FLARE_DRESS_WITH_SHAWL_NECKLACE.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_2.jpg"
+          }
+        },
+        "collections_7UqkgW": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_03_-_OVERSIZED_CREW_NECK_SWEATSHIRT.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_3.jpg"
+          }
+        },
+        "collections_tXUwa7": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify:\/\/shop_images\/TTM01_04_-_BEDAZZLED_LEGGING_PANTS_LONG_COAT_WITH_SHAWL_COLLAR.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_4.jpg"
+          }
+        },
+        "collections_VKcEeG": {
+          "type": "collections",
+          "settings": {
             "title": ""
           }
         }
       },
       "block_order": [
         "collections_7LHpT4",
-        "collections_CUGwUm"
+        "collections_CUGwUm",
+        "collections_7UqkgW",
+        "collections_tXUwa7",
+        "collections_VKcEeG"
       ],
       "settings": {
         "padding_top": 28,
