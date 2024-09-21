@@ -315,6 +315,20 @@
             "image1": "shopify:\/\/shop_images\/TTM01_38_-_SLEEVELESS_FUR_CROP_TOP_PLEATED_TUTU_SKIRT_FURRY_HEAD_PIECE.jpg",
             "image2": "shopify:\/\/shop_images\/TTM01_38.jpg"
           }
+        },
+        "collections_HVxxHg": {
+          "type": "collections",
+          "settings": {
+            "title": "TTM 39",
+            "image1": "shopify:\/\/shop_images\/TTM01_39_-_FUGUKU_DRESS_WITH_PLEATED_TUTU_PETICOAT.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_39.jpg"
+          }
+        },
+        "collections_KrzUka": {
+          "type": "collections",
+          "settings": {
+            "title": ""
+          }
         }
       },
       "block_order": [
@@ -355,7 +369,9 @@
         "collections_LdeGdJ",
         "collections_3atUyr",
         "collections_QipR9c",
-        "collections_EzqXFK"
+        "collections_EzqXFK",
+        "collections_HVxxHg",
+        "collections_KrzUka"
       ],
       "settings": {
         "padding_top": 28,
