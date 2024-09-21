@@ -243,6 +243,20 @@
             "image1": "shopify:\/\/shop_images\/TTM01_29_-_HIGH_COLLAR_SHIRT_WITH_FLORAL_EMBROIDERY_LONG_STRAIGHT_TROUSER_PANTS.jpg",
             "image2": "shopify:\/\/shop_images\/TTM01_29.jpg"
           }
+        },
+        "collections_RTdngK": {
+          "type": "collections",
+          "settings": {
+            "title": "30",
+            "image1": "shopify:\/\/shop_images\/TTM01_30_-_ONE_SHOULDER_ANKLE_DRESS_WITH_TASSEL.jpg",
+            "image2": "shopify:\/\/shop_images\/1_BELAKANG_4c56b736-76ae-4a97-a576-30a5892ad35d.jpg"
+          }
+        },
+        "collections_AYW3Pz": {
+          "type": "collections",
+          "settings": {
+            "title": "31"
+          }
         }
       },
       "block_order": [
@@ -274,7 +288,9 @@
         "collections_fAeiUb",
         "collections_tBBzEB",
         "collections_7kHmMa",
-        "collections_jhXKVA"
+        "collections_jhXKVA",
+        "collections_RTdngK",
+        "collections_AYW3Pz"
       ],
       "settings": {
         "padding_top": 28,
