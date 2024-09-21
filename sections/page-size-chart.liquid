@@ -1,0 +1,23 @@
+<div>
+  {{ page.content }}
+</div>
+
+{% schema %}
+  {
+    "name": "Page Size Chart",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "richtext",
+        "name": "Content",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
