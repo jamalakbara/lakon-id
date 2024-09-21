@@ -327,7 +327,9 @@
         "collections_KrzUka": {
           "type": "collections",
           "settings": {
-            "title": ""
+            "title": "TTM 40",
+            "image1": "shopify:\/\/shop_images\/TTM01_40_-_LONG_DRESS_WITH_ONE_DRAPERY_SLEEVES.jpg",
+            "image2": "shopify:\/\/shop_images\/TTM01_40.jpg"
           }
         }
       },
