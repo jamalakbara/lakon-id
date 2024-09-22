@@ -15,14 +15,404 @@
         "collections_jxfLMz": {
           "type": "collections",
           "settings": {
-            "title": "",
+            "title": "PAKAIANKOE 01",
             "image1": "shopify:\/\/shop_images\/1_36383e22-d8b8-432f-b188-e8fc98af29d7.jpg",
             "image2": "shopify:\/\/shop_images\/1_Belakang_f96f6799-acc0-43fc-ac94-bfb510a8bba9.jpg"
+          }
+        },
+        "collections_YU9CfF": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 02",
+            "image1": "shopify:\/\/shop_images\/2_fe0e583c-c6fc-438c-b6e5-cb171fd46a23.jpg"
+          }
+        },
+        "collections_4pcy4P": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 03",
+            "image1": "shopify:\/\/shop_images\/3_f0cb710d-1c87-4e43-9e4e-b7512d43338f.jpg"
+          }
+        },
+        "collections_tjyJ6T": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 04",
+            "image1": "shopify:\/\/shop_images\/4_9666ec58-051b-498e-a099-d4021d05d544.jpg"
+          }
+        },
+        "collections_VYxK7V": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 05",
+            "image1": "shopify:\/\/shop_images\/5_d26e8d19-8ac2-4e3a-8992-7f5256b52861.jpg"
+          }
+        },
+        "collections_W7MK9z": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 06",
+            "image1": "shopify:\/\/shop_images\/6_1ca1965e-ee97-452a-8888-748efb4cae1f.jpg"
+          }
+        },
+        "collections_6xrDGH": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 07",
+            "image1": "shopify:\/\/shop_images\/7_3f53efd5-fc32-4a4f-be81-be7edbe21daa.jpg"
+          }
+        },
+        "collections_VCX3zg": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 08",
+            "image1": "shopify:\/\/shop_images\/8_a5f8b387-9675-46e2-9c71-aee29a9f70c1.jpg"
+          }
+        },
+        "collections_eD8JQE": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 09",
+            "image1": "shopify:\/\/shop_images\/9_a1a83ddf-c0d9-4d2b-af25-991492dee475.jpg"
+          }
+        },
+        "collections_44QYi7": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 10",
+            "image1": "shopify:\/\/shop_images\/10_84442c28-7eaa-4190-a53d-4530a629295b.jpg"
+          }
+        },
+        "collections_QyUeE8": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 11",
+            "image1": "shopify:\/\/shop_images\/11_6de9d961-9aa3-403c-8bea-450ae2d306be.jpg"
+          }
+        },
+        "collections_baYG9H": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 12",
+            "image1": "shopify:\/\/shop_images\/12_75458d07-0804-4ff1-9b36-0f50bb5a98b1.jpg"
+          }
+        },
+        "collections_NNk8Fh": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 13",
+            "image1": "shopify:\/\/shop_images\/13_08607425-32d0-4ec6-9935-6ecf58911d98.jpg"
+          }
+        },
+        "collections_pUJKqx": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 14",
+            "image1": "shopify:\/\/shop_images\/14_3bd4d983-4d66-4d32-8d8c-10e4d1bba73b.jpg"
+          }
+        },
+        "collections_fktDJz": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 15",
+            "image1": "shopify:\/\/shop_images\/15_f53b3684-a238-4bbb-acb8-17e4dd901a97.jpg"
+          }
+        },
+        "collections_TY4RLG": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 16",
+            "image1": "shopify:\/\/shop_images\/16_87374ab5-3834-4396-8038-69544c894563.jpg"
+          }
+        },
+        "collections_GFCAQE": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 17",
+            "image1": "shopify:\/\/shop_images\/17_0ec64c36-d82d-4824-83bc-9e5450438c46.jpg"
+          }
+        },
+        "collections_VHghkz": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 18",
+            "image1": "shopify:\/\/shop_images\/18_d881a689-adab-458c-aea5-49e3bb3d8ba0.jpg"
+          }
+        },
+        "collections_3Q3LiD": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 19",
+            "image1": "shopify:\/\/shop_images\/19_ab6e3fb8-c9cc-41d5-82eb-6812db52b64a.jpg"
+          }
+        },
+        "collections_MwdCB4": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 20",
+            "image1": "shopify:\/\/shop_images\/20_116edc57-b88b-4d64-bddc-7576bfb8aa7e.jpg"
+          }
+        },
+        "collections_8aPatb": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 21",
+            "image1": "shopify:\/\/shop_images\/21_15e7510f-0ed8-432f-95e3-ac039c24e812.jpg"
+          }
+        },
+        "collections_Rd8Tpn": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 22",
+            "image1": "shopify:\/\/shop_images\/22_2d8d9ab0-7a20-4b10-99a9-cf3af84e0411.jpg"
+          }
+        },
+        "collections_GU6yJD": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 23",
+            "image1": "shopify:\/\/shop_images\/23_9b185663-8e93-410b-81c2-52dfca264475.jpg"
+          }
+        },
+        "collections_teQXD8": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 24",
+            "image1": "shopify:\/\/shop_images\/24_6e4a6564-0ac5-4df9-8bc0-1576741a3fdd.jpg"
+          }
+        },
+        "collections_rCGBjz": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 25",
+            "image1": "shopify:\/\/shop_images\/25_efb0e316-8465-40c1-bd43-abe95a1b4a83.jpg"
+          }
+        },
+        "collections_mRwGUb": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 26",
+            "image1": "shopify:\/\/shop_images\/26_36b34e82-5487-4871-9dd6-9e2418e4e486.jpg"
+          }
+        },
+        "collections_76Me9J": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 27",
+            "image1": "shopify:\/\/shop_images\/27_61d23032-9c15-44bc-ab76-ed78eea7b1f8.jpg"
+          }
+        },
+        "collections_mnFVz4": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 28",
+            "image1": "shopify:\/\/shop_images\/28_641c0b96-ddfb-40f5-bd48-ab7c23a14453.jpg"
+          }
+        },
+        "collections_FyibW4": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 29",
+            "image1": "shopify:\/\/shop_images\/29_739b0628-5d71-4995-bee9-8861e3de460b.jpg"
+          }
+        },
+        "collections_Bapymc": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 30",
+            "image1": "shopify:\/\/shop_images\/30_10768450-fd85-4a3f-9b89-007552db7ac4.jpg"
+          }
+        },
+        "collections_dFhXit": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 31",
+            "image1": "shopify:\/\/shop_images\/31_4b054323-a0a8-450f-b2d4-4fa72e75dc69.jpg"
+          }
+        },
+        "collections_xwPgqh": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 32",
+            "image1": "shopify:\/\/shop_images\/32_cb2ba9c3-7781-41f2-ab24-a0611d4cd03a.jpg"
+          }
+        },
+        "collections_GGKWYe": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 33",
+            "image1": "shopify:\/\/shop_images\/33_40df086b-1e59-4c62-9520-e0a3f7b19675.jpg"
+          }
+        },
+        "collections_McVLC3": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 34"
+          }
+        },
+        "collections_LnCfqT": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 35",
+            "image1": "shopify:\/\/shop_images\/35_8763be81-bda1-4043-9333-a4e54c821b16.jpg"
+          }
+        },
+        "collections_6Xb7Wq": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 36",
+            "image1": "shopify:\/\/shop_images\/36_a5dcaf44-a772-47c1-89ea-c1a3cc6b975e.jpg"
+          }
+        },
+        "collections_yCQ6e3": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 37",
+            "image1": "shopify:\/\/shop_images\/37_f3e9ec14-e23d-4d09-936e-ed0a6603e7ac.jpg"
+          }
+        },
+        "collections_mhPQVa": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 38",
+            "image1": "shopify:\/\/shop_images\/38_383c7e48-60c1-4815-b87c-afa8b464fe7d.jpg"
+          }
+        },
+        "collections_8fPcNL": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 39",
+            "image1": "shopify:\/\/shop_images\/39_1a38f27f-10b1-4e83-bcc7-8f0792181b35.jpg"
+          }
+        },
+        "collections_GJ67w6": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 40",
+            "image1": "shopify:\/\/shop_images\/40_8b4c7f6e-4e02-4dab-bda2-5fc262063334.jpg"
+          }
+        },
+        "collections_DC38PN": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 41",
+            "image1": "shopify:\/\/shop_images\/41_d5bc09f5-9a66-4ed2-b228-545c57d255c2.jpg"
+          }
+        },
+        "collections_yrx6nr": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 42",
+            "image1": "shopify:\/\/shop_images\/42_e966d843-49d6-4099-b11d-b243bf769681.jpg"
+          }
+        },
+        "collections_wi7ML3": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 43",
+            "image1": "shopify:\/\/shop_images\/43_a6ca859b-474c-4259-ab68-e6801152b2c6.jpg"
+          }
+        },
+        "collections_RkhhG3": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 44",
+            "image1": "shopify:\/\/shop_images\/44_ad0c8259-3af9-4c95-b6db-303dae1c2f73.jpg"
+          }
+        },
+        "collections_k766xD": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 45",
+            "image1": "shopify:\/\/shop_images\/45.jpg"
+          }
+        },
+        "collections_KjCrgb": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 46",
+            "image1": "shopify:\/\/shop_images\/46_0e9218e6-9907-4c06-9528-7fe5829a055c.jpg"
+          }
+        },
+        "collections_Gqx3mY": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 47",
+            "image1": "shopify:\/\/shop_images\/47_9fea1467-1678-4b0f-b323-f3fb90cff740.jpg"
+          }
+        },
+        "collections_3d9L4i": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 48",
+            "image1": "shopify:\/\/shop_images\/48_f3300317-01f2-4f42-bcf1-fa2b62a867db.jpg"
+          }
+        },
+        "collections_iiJjUw": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 49",
+            "image1": "shopify:\/\/shop_images\/49_bccf9322-0f36-4548-b91d-30489ed941f8.jpg"
+          }
+        },
+        "collections_zKiHJG": {
+          "type": "collections",
+          "settings": {
+            "title": "PAKAIANKOE 50"
           }
         }
       },
       "block_order": [
-        "collections_jxfLMz"
+        "collections_jxfLMz",
+        "collections_YU9CfF",
+        "collections_4pcy4P",
+        "collections_tjyJ6T",
+        "collections_VYxK7V",
+        "collections_W7MK9z",
+        "collections_6xrDGH",
+        "collections_VCX3zg",
+        "collections_eD8JQE",
+        "collections_44QYi7",
+        "collections_QyUeE8",
+        "collections_baYG9H",
+        "collections_NNk8Fh",
+        "collections_pUJKqx",
+        "collections_fktDJz",
+        "collections_TY4RLG",
+        "collections_GFCAQE",
+        "collections_VHghkz",
+        "collections_3Q3LiD",
+        "collections_MwdCB4",
+        "collections_8aPatb",
+        "collections_Rd8Tpn",
+        "collections_GU6yJD",
+        "collections_teQXD8",
+        "collections_rCGBjz",
+        "collections_mRwGUb",
+        "collections_76Me9J",
+        "collections_mnFVz4",
+        "collections_FyibW4",
+        "collections_Bapymc",
+        "collections_dFhXit",
+        "collections_xwPgqh",
+        "collections_GGKWYe",
+        "collections_McVLC3",
+        "collections_LnCfqT",
+        "collections_6Xb7Wq",
+        "collections_yCQ6e3",
+        "collections_mhPQVa",
+        "collections_8fPcNL",
+        "collections_GJ67w6",
+        "collections_DC38PN",
+        "collections_yrx6nr",
+        "collections_wi7ML3",
+        "collections_RkhhG3",
+        "collections_k766xD",
+        "collections_KjCrgb",
+        "collections_Gqx3mY",
+        "collections_3d9L4i",
+        "collections_iiJjUw",
+        "collections_zKiHJG"
       ],
       "settings": {
         "padding_top": 28,
@@ -32,9 +422,26 @@
         "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 0 - 2 0 2 1<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>A  J o u r n e y   t o   J a v a <\/p><p> <\/p><p>15 . 11 . 2020<br\/>ASHTA, Distric 8, SCBD, Jakarta<\/p><p>Indonesia<\/p><p><strong> There is a story that is starting to be forgotten…<\/strong><\/p><p><strong>Something that was once very close to its people…<\/strong><\/p><p><strong>called  T r a d i t i o n  and  C u l t u r e<\/strong><\/p><p><strong>Delving into and reassembling the principle that was once a basis and pride<\/strong><\/p><p><strong>Bringing it back into  D A I L Y  L I V E S<\/strong><\/p>",
         "image": "shopify:\/\/shop_images\/WEB_BANNER_CIRCLO_MOCKUP_07.jpg"
       }
+    },
+    "add_more_block_fntf83": {
+      "type": "add-more-block",
+      "blocks": {
+        "collections_P9CYEW": {
+          "type": "collections",
+          "settings": {
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collections_P9CYEW"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "add_more_block_fntf83"
   ]
 }
