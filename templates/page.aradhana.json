@@ -37,7 +37,9 @@
         "collections_6RiD4z": {
           "type": "collections",
           "settings": {
-            "title": "ARADHANA 04"
+            "title": "ARADHANA 04",
+            "image1": "shopify:\/\/shop_images\/4.jpg",
+            "image2": "shopify:\/\/shop_images\/4_Belakang.jpg"
           }
         },
         "collections_UCDhrj": {
