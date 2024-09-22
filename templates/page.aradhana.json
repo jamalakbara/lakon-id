@@ -24,14 +24,16 @@
           "type": "collections",
           "settings": {
             "title": "ARADHANA 02",
-            "image1": "shopify:\/\/shop_images\/2.jpg"
+            "image1": "shopify:\/\/shop_images\/2.jpg",
+            "image2": "shopify:\/\/shop_images\/2_Belakang.jpg"
           }
         },
         "collections_PfXHQd": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 03",
-            "image1": "shopify:\/\/shop_images\/3.jpg"
+            "image1": "shopify:\/\/shop_images\/3.jpg",
+            "image2": "shopify:\/\/shop_images\/3_Belakang.jpg"
           }
         },
         "collections_6RiD4z": {
@@ -46,98 +48,112 @@
           "type": "collections",
           "settings": {
             "title": "ARADHANA 05",
-            "image1": "shopify:\/\/shop_images\/5.jpg"
+            "image1": "shopify:\/\/shop_images\/5.jpg",
+            "image2": "shopify:\/\/shop_images\/5_Belakang.jpg"
           }
         },
         "collections_jcWrUa": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 06",
-            "image1": "shopify:\/\/shop_images\/6.jpg"
+            "image1": "shopify:\/\/shop_images\/6.jpg",
+            "image2": "shopify:\/\/shop_images\/6_Belakang.jpg"
           }
         },
         "collections_97HkB3": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 07",
-            "image1": "shopify:\/\/shop_images\/7.jpg"
+            "image1": "shopify:\/\/shop_images\/7.jpg",
+            "image2": "shopify:\/\/shop_images\/7_Belakang.jpg"
           }
         },
         "collections_wFXPyR": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 08",
-            "image1": "shopify:\/\/shop_images\/8.jpg"
+            "image1": "shopify:\/\/shop_images\/8.jpg",
+            "image2": "shopify:\/\/shop_images\/8_Belakang.jpg"
           }
         },
         "collections_YxPYTY": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 09",
-            "image1": "shopify:\/\/shop_images\/9.jpg"
+            "image1": "shopify:\/\/shop_images\/9.jpg",
+            "image2": "shopify:\/\/shop_images\/9_Belakang.jpg"
           }
         },
         "collections_VQ8XPP": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 10",
-            "image1": "shopify:\/\/shop_images\/10.jpg"
+            "image1": "shopify:\/\/shop_images\/10.jpg",
+            "image2": "shopify:\/\/shop_images\/10_Belakang.jpg"
           }
         },
         "collections_PN77UB": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 11",
-            "image1": "shopify:\/\/shop_images\/11.jpg"
+            "image1": "shopify:\/\/shop_images\/11.jpg",
+            "image2": "shopify:\/\/shop_images\/11_Belakang.jpg"
           }
         },
         "collections_H7WY4A": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 12",
-            "image1": "shopify:\/\/shop_images\/12.jpg"
+            "image1": "shopify:\/\/shop_images\/12.jpg",
+            "image2": "shopify:\/\/shop_images\/12_Belakang.jpg"
           }
         },
         "collections_d4tE6x": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 13",
-            "image1": "shopify:\/\/shop_images\/13.jpg"
+            "image1": "shopify:\/\/shop_images\/13.jpg",
+            "image2": "shopify:\/\/shop_images\/13_Belakang.jpg"
           }
         },
         "collections_gBetkc": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 14",
-            "image1": "shopify:\/\/shop_images\/14.jpg"
+            "image1": "shopify:\/\/shop_images\/14.jpg",
+            "image2": "shopify:\/\/shop_images\/14_Belakang.jpg"
           }
         },
         "collections_3PFdwX": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 15",
-            "image1": "shopify:\/\/shop_images\/15.jpg"
+            "image1": "shopify:\/\/shop_images\/15.jpg",
+            "image2": "shopify:\/\/shop_images\/15_Belakang.jpg"
           }
         },
         "collections_Yyq9BK": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 16",
-            "image1": "shopify:\/\/shop_images\/16.jpg"
+            "image1": "shopify:\/\/shop_images\/16.jpg",
+            "image2": "shopify:\/\/shop_images\/16_Belakang.jpg"
           }
         },
         "collections_jHaadD": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 17",
-            "image1": "shopify:\/\/shop_images\/17.jpg"
+            "image1": "shopify:\/\/shop_images\/17.jpg",
+            "image2": "shopify:\/\/shop_images\/17_Belakang.jpg"
           }
         },
         "collections_dxry3p": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 18",
-            "image1": "shopify:\/\/shop_images\/18.jpg"
+            "image1": "shopify:\/\/shop_images\/18.jpg",
+            "image2": "shopify:\/\/shop_images\/18_Belakang.jpg"
           }
         },
         "collections_8EJ6zC": {
@@ -151,175 +167,200 @@
           "type": "collections",
           "settings": {
             "title": "ARADHANA 20",
-            "image1": "shopify:\/\/shop_images\/20.jpg"
+            "image1": "shopify:\/\/shop_images\/20.jpg",
+            "image2": "shopify:\/\/shop_images\/20_Belakang.jpg"
           }
         },
         "collections_9zEhWy": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 21",
-            "image1": "shopify:\/\/shop_images\/21.jpg"
+            "image1": "shopify:\/\/shop_images\/21.jpg",
+            "image2": "shopify:\/\/shop_images\/21_Belakang.jpg"
           }
         },
         "collections_MFKFkW": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 22",
-            "image1": "shopify:\/\/shop_images\/22.jpg"
+            "image1": "shopify:\/\/shop_images\/22.jpg",
+            "image2": "shopify:\/\/shop_images\/22_Belakang.jpg"
           }
         },
         "collections_EYAjVr": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 23",
-            "image1": "shopify:\/\/shop_images\/23.jpg"
+            "image1": "shopify:\/\/shop_images\/23.jpg",
+            "image2": "shopify:\/\/shop_images\/23_Belakang.jpg"
           }
         },
         "collections_ijmmc3": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 24",
-            "image1": "shopify:\/\/shop_images\/24.jpg"
+            "image1": "shopify:\/\/shop_images\/24.jpg",
+            "image2": "shopify:\/\/shop_images\/24_Belakang.jpg"
           }
         },
         "collections_rVjhWb": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 25",
-            "image1": "shopify:\/\/shop_images\/25.jpg"
+            "image1": "shopify:\/\/shop_images\/25.jpg",
+            "image2": "shopify:\/\/shop_images\/25_Belakang.jpg"
           }
         },
         "collections_fR8bDG": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 26",
-            "image1": "shopify:\/\/shop_images\/26.jpg"
+            "image1": "shopify:\/\/shop_images\/26.jpg",
+            "image2": "shopify:\/\/shop_images\/26_Belakang.jpg"
           }
         },
         "collections_xKYkqC": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 27",
-            "image1": "shopify:\/\/shop_images\/27.jpg"
+            "image1": "shopify:\/\/shop_images\/27.jpg",
+            "image2": "shopify:\/\/shop_images\/27_Belakang.jpg"
           }
         },
         "collections_7CVm7z": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 28",
-            "image1": "shopify:\/\/shop_images\/28.jpg"
+            "image1": "shopify:\/\/shop_images\/28.jpg",
+            "image2": "shopify:\/\/shop_images\/28_Belakang.jpg"
           }
         },
         "collections_DrLQBj": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 29",
-            "image1": "shopify:\/\/shop_images\/29.jpg"
+            "image1": "shopify:\/\/shop_images\/29.jpg",
+            "image2": "shopify:\/\/shop_images\/29_Belakang.jpg"
           }
         },
         "collections_PEbYgh": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 30",
-            "image1": "shopify:\/\/shop_images\/30.jpg"
+            "image1": "shopify:\/\/shop_images\/30.jpg",
+            "image2": "shopify:\/\/shop_images\/30_Belakang.jpg"
           }
         },
         "collections_EGfaq4": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 31",
-            "image1": "shopify:\/\/shop_images\/31.jpg"
+            "image1": "shopify:\/\/shop_images\/31.jpg",
+            "image2": "shopify:\/\/shop_images\/31_Belakang.jpg"
           }
         },
         "collections_cDRgfw": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 32",
-            "image1": "shopify:\/\/shop_images\/32.jpg"
+            "image1": "shopify:\/\/shop_images\/32.jpg",
+            "image2": "shopify:\/\/shop_images\/32_Belakang.jpg"
           }
         },
         "collections_CKiwTD": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 33",
-            "image1": "shopify:\/\/shop_images\/33.jpg"
+            "image1": "shopify:\/\/shop_images\/33.jpg",
+            "image2": "shopify:\/\/shop_images\/33_Belakang.jpg"
           }
         },
         "collections_ML3y7r": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 34",
-            "image1": "shopify:\/\/shop_images\/34.jpg"
+            "image1": "shopify:\/\/shop_images\/34.jpg",
+            "image2": "shopify:\/\/shop_images\/34_Belakang.jpg"
           }
         },
         "collections_DFKgqW": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 35",
-            "image1": "shopify:\/\/shop_images\/35.jpg"
+            "image1": "shopify:\/\/shop_images\/35.jpg",
+            "image2": "shopify:\/\/shop_images\/35_Belakang.jpg"
           }
         },
         "collections_yhqWFT": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 36",
-            "image1": "shopify:\/\/shop_images\/36.jpg"
+            "image1": "shopify:\/\/shop_images\/36.jpg",
+            "image2": "shopify:\/\/shop_images\/36_Belakang.jpg"
           }
         },
         "collections_JCJb6j": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 37",
-            "image1": "shopify:\/\/shop_images\/37.jpg"
+            "image1": "shopify:\/\/shop_images\/37.jpg",
+            "image2": "shopify:\/\/shop_images\/37_Belakang.jpg"
           }
         },
         "collections_6cKncN": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 38",
-            "image1": "shopify:\/\/shop_images\/38.jpg"
+            "image1": "shopify:\/\/shop_images\/38.jpg",
+            "image2": "shopify:\/\/shop_images\/38_Belakang.jpg"
           }
         },
         "collections_TPNR98": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 39",
-            "image1": "shopify:\/\/shop_images\/39.jpg"
+            "image1": "shopify:\/\/shop_images\/39.jpg",
+            "image2": "shopify:\/\/shop_images\/39_Belakang.jpg"
           }
         },
         "collections_aPHieK": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 40",
-            "image1": "shopify:\/\/shop_images\/40.jpg"
+            "image1": "shopify:\/\/shop_images\/40.jpg",
+            "image2": "shopify:\/\/shop_images\/40_Belakang.jpg"
           }
         },
         "collections_9bLEAX": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 41",
-            "image1": "shopify:\/\/shop_images\/41.jpg"
+            "image1": "shopify:\/\/shop_images\/41.jpg",
+            "image2": "shopify:\/\/shop_images\/41_Belakang.jpg"
           }
         },
         "collections_YDfEYA": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 42",
-            "image1": "shopify:\/\/shop_images\/42.jpg"
+            "image1": "shopify:\/\/shop_images\/42.jpg",
+            "image2": "shopify:\/\/shop_images\/42_Belakang.jpg"
           }
         },
         "collections_zarhH8": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 43",
-            "image1": "shopify:\/\/shop_images\/43.jpg"
+            "image1": "shopify:\/\/shop_images\/43.jpg",
+            "image2": "shopify:\/\/shop_images\/43_Belakang.jpg"
           }
         },
         "collections_UhPjtY": {
           "type": "collections",
           "settings": {
             "title": "ARADHANA 44",
-            "image1": "shopify:\/\/shop_images\/44.jpg"
+            "image1": "shopify:\/\/shop_images\/44.jpg",
+            "image2": "shopify:\/\/shop_images\/44_Belakang.jpg"
           }
         }
       },
