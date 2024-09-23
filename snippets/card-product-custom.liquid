@@ -565,7 +565,7 @@
       <div class="card__information" style="position:relative;z-index:10">
         <div class="card__information">
         {%- assign color_label = 'color,colour,couleur,colore,farbe,색,色,färg,farve' | split: ',' -%}
-
+        
         {% for option in card_product.options_with_values %}
           {%- assign downcased_option = option.name | downcase -%}
 
@@ -575,7 +575,7 @@
                 product: product,
                 option: option,
                 block: block,
-                picker_type: 'swatch'
+                picker_type: 'swatch',
               %}
             </fieldset>
           {%- endif -%}

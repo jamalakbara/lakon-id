@@ -576,6 +576,10 @@
                   render 'share-button', block: block, share_link: share_url
                 %}
 
+              {%- when 'size_chart' -%}
+                <h2 class="form__label size-chart__label" id="modal-size-chart-button">
+                  {{ block.settings.title_size_chart | escape }}
+                </h2>
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
@@ -1008,6 +1012,105 @@
   </div>
 </product-info>
 
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'size_chart' -%}
+      {%- style -%}
+        .size-chart-product > .rte > h2{
+          margin-top: 0;
+        }
+        .size-chart-product > .rte {
+          margin: 1rem 0;
+        }
+      {%- endstyle -%}
+      <div class="modal-size-chart" id="modal-size-chart">
+        <span class="close">&times;</span>
+        <div class="size-chart-product">
+          <section id="radio-selection-size-chart">
+          </section>
+        
+          <section class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" style="text-align: center;">
+            {{ block.settings.page.content }}
+          </section>
+        </div>
+      </div>  
+  {%- endcase -%}
+{%- endfor -%}
+
+<script>
+  const rte = document.querySelector('.size-chart-product .rte')
+  rte.childNodes.forEach(node => {
+    if (node.nodeType === Node.ELEMENT_NODE && node.tagName !== 'H2' && node.tagName !== 'TABLE') {
+      node.remove();
+    }
+  });
+
+  const radioSelection = document.querySelectorAll('.size-chart-custom')
+  const radioSelectionSection = document.querySelector('#radio-selection-size-chart')
+  console.log(radioSelection)
+
+  radioSelection.forEach((radio, idx) => {
+    if (idx !== 0) {
+      radio.classList.add('hidden')
+    }
+
+    const div = document.createElement('div')
+    const label = document.createElement('label')
+    const input = document.createElement('input')
+
+    div.classList.add('radio-selection-container')
+
+    label.setAttribute('for', `${radio.getAttribute('id')}-radio`)
+
+    input.setAttribute('type', 'radio')
+    input.setAttribute('name', 'size-chart')
+    input.setAttribute('id', `${radio.getAttribute('id')}-radio`)
+    input.setAttribute('value', `${radio.getAttribute('id')}-table`)
+    if (idx === 0) {
+      input.setAttribute('checked', 'checked')
+    }
+
+    label.innerHTML = radio.innerHTML
+
+    div.appendChild(input)
+    div.appendChild(label)
+    radioSelectionSection.appendChild(div)
+
+    input.addEventListener('change', (e) => {
+      const tableSizeChart = document.querySelectorAll('.size-chart-custom-table')
+      tableSizeChart.forEach((table, idx) => {
+        const idTable = table.getAttribute('id').replace('-table', '-chart-table')
+        const targetValue = e.target.value
+        if (idTable === targetValue) {
+          table.classList.remove('hidden')
+          radio.classList.remove('hidden')
+        } else {
+          table.classList.add('hidden')
+          radio.classList.add('hidden')
+        }
+      });
+
+      const radioLabel = document.querySelectorAll('.size-chart-custom')
+      radioLabel.forEach((radio, idx) => {
+        const radioLabelId = radio.getAttribute('id')
+        const targetValue = e.target.value.replace('-table', '')
+        if (radio.getAttribute('id') === targetValue) {
+          radio.classList.remove('hidden')
+        } else {
+          radio.classList.add('hidden')
+        }
+      });
+    });
+  });
+
+  const tableSizeChart = document.querySelectorAll('.size-chart-custom-table')
+  tableSizeChart.forEach((table, idx) => {
+    if (idx !== 0) {
+      table.classList.add('hidden')
+    }
+  });
+</script>
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
@@ -1235,6 +1338,24 @@
           "label": "t:sections.custom-liquid.settings.custom_liquid.label",
           "info": "t:sections.custom-liquid.settings.custom_liquid.info"
         }
+      ]
+    },
+    {
+      "type": "size_chart",
+      "name": "Size Chart",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title_size_chart",
+          "label": "Title",
+          "default": "Size Chart"
+        },
+        {
+          "type": "page",
+          "id": "page",
+          "label": "t:sections.main-product.blocks.collapsible_tab.settings.page.label"
+        } 
       ]
     },
     {

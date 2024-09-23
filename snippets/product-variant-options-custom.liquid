@@ -44,7 +44,7 @@
   {%- endcapture -%}
 
   {%- capture input_name -%}
-    {{ option.name }}-{{ option.position }}
+    {{ option.name }}-{{ option.position }}-{{ value }}-{{ forloop.index0 }}
   {%- endcapture -%}
 
   {%- capture input_dataset -%}
