@@ -9,6 +9,66 @@
   font-family: 'TIMESS__', sans-serif !important;
 }
 
+.modal-size-chart, .modal-image-slider-page{
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-image-slider-page{
+  justify-content: flex-start;
+}
+
+.close, [class*="close-"] {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: #4b4b4b;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus, [class*="close-"]:hover, [class*="close-"]:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.size-chart__label{
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.size-chart-product{
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+}
+
+#radio-selection-size-chart{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+img[class*="image-item-"] {
+  cursor: pointer;
+}
+
 .custom-page-figure{
   display: flex;
   justify-content: center;
@@ -23,6 +83,8 @@
 }
 
 .container-slide-page-custom{
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: repeat(12,minmax(52px,1fr));
   grid-gap: 15px;
@@ -294,6 +356,10 @@ figure.product-thumbnail-custom{
 .card__information fieldset{
   margin-bottom: 0;
   margin-top: -25px;
+}
+
+.carousel-product-custom .card__information fieldset{
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 749px) {
