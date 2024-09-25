@@ -3,7 +3,7 @@
     {{ page.title | escape }}
   </h1>
 
-  <div>
+  <div class="offline-store">
     {% for block in section.blocks %}
       {% if block.type == 'store' %}
         <div class="store">
