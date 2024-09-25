@@ -72,7 +72,11 @@
       <div class="carousel-product-custom">
         <div class="owl-carousel">
           {% for image in card_product.images %}
-            <figure class="owl-collection-product" data-media-variant={{ image.id }}>
+            <a 
+              href="{{ card_product.url }}"
+              class="owl-collection-product" 
+              data-media-variant={{ image.id }}
+            >
               <img
                 srcset="
                   {%- if image.width >= 165 -%}{{ image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -93,7 +97,7 @@
                 width="{{ image.width }}"
                 height="{{ image.height }}"
               >
-            </figure>
+            </a>
           {% endfor %}
 
           {% for option in card_product.options_with_values %}
@@ -123,25 +127,6 @@
             {%- endfor -%}
           {% endfor %}
         </div>
-
-{% comment %} 
-        <div class="quick-add-custom">
-          {% for variant in card_product.variants %}
-            {% if variant.available %}
-              <form action="/cart/add" method="post">
-                <input type="hidden" name="id" value="{{ variant.id }}">
-                <button type="submit" class="add-to-cart-button">{{ variant.title }}</button>
-              </form>
-              {% else %}
-              <form action="/cart/add" method="post">
-                <input type="hidden" name="id" value="{{ variant.id }}">
-                <button type="submit" class="add-to-cart-button" disabled style="text-decoration: line-through">{{ variant.title }}</button>
-              </form>
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div> 
-{% endcomment %}
 
       <div class="card__content">
         <div class="card__information">

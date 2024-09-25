@@ -1,70 +1,40 @@
+{% if section.settings.image %}
+  <figure class="custom-page-figure">
+    <img
+      srcset="
+        {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+        {%- if section.settings.image.width >= 533 -%}{{ section.settings.image | image_url: width: 533 }} 533w,{%- endif -%}
+        {%- if section.settings.image.width >= 720 -%}{{ section.settings.image | image_url: width: 720 }} 720w,{%- endif -%}
+        {%- if section.settings.image.width >= 940 -%}{{ section.settings.image | image_url: width: 940 }} 940w,{%- endif -%}
+        {%- if section.settings.image.width >= 1066 -%}{{ section.settings.image | image_url: width: 1066 }} 1066w,{%- endif -%}
+        {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+      "
+      src="{{ section.settings.image | image_url: width: 533 }}"
+      {% comment %} sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" {% endcomment %}
+      alt="{{ section.settings.image.alt | escape }}"
+      class="motion-reduce"
+      {% unless lazy_load == false %}
+        loading="lazy"
+      {% endunless %}
+      width="{{ section.settings.image.width }}"
+      height="{{ section.settings.image.height }}"
+    >
+  </figure>
+{% endif %}
+
 <div class="page-width">
-  {% if section.settings.logo_title %}
-    <figure class="custom-page-figure" style="text-align: center;">
-      <img
-        srcset="
-          {%- if section.settings.logo_title.width >= 165 -%}{{ section.settings.logo_title | image_url: width: 165 }} 165w,{%- endif -%}
-          {%- if section.settings.logo_title.width >= 360 -%}{{ section.settings.logo_title | image_url: width: 360 }} 360w,{%- endif -%}
-          {%- if section.settings.logo_title.width >= 533 -%}{{ section.settings.logo_title | image_url: width: 533 }} 533w,{%- endif -%}
-          {%- if section.settings.logo_title.width >= 720 -%}{{ section.settings.logo_title | image_url: width: 720 }} 720w,{%- endif -%}
-          {%- if section.settings.logo_title.width >= 940 -%}{{ section.settings.logo_title | image_url: width: 940 }} 940w,{%- endif -%}
-          {%- if section.settings.logo_title.width >= 1066 -%}{{ section.settings.logo_title | image_url: width: 1066 }} 1066w,{%- endif -%}
-          {{ section.settings.logo_title | image_url }} {{ section.settings.logo_title.width }}w
-        "
-        src="{{ section.settings.logo_title | image_url: width: 533 }}"
-        {% comment %} sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" {% endcomment %}
-        alt="{{ section.settings.logo_title.alt | escape }}"
-        class="motion-reduce"
-        {% unless lazy_load == false %}
-          loading="lazy"
-        {% endunless %}
-        width="{{ section.settings.logo_title.width }}"
-        height="{{ section.settings.logo_title.height }}"
-      >
-    </figure>
-  {% else %}
-    <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}" style="text-align: center;">
-      {{ page.title | escape }}
-    </h1>
-  {% endif %}
-
-
-  {% if section.settings.image %}
-    <figure class="custom-page-figure">
-      <img
-        srcset="
-          {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-          {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-          {%- if section.settings.image.width >= 533 -%}{{ section.settings.image | image_url: width: 533 }} 533w,{%- endif -%}
-          {%- if section.settings.image.width >= 720 -%}{{ section.settings.image | image_url: width: 720 }} 720w,{%- endif -%}
-          {%- if section.settings.image.width >= 940 -%}{{ section.settings.image | image_url: width: 940 }} 940w,{%- endif -%}
-          {%- if section.settings.image.width >= 1066 -%}{{ section.settings.image | image_url: width: 1066 }} 1066w,{%- endif -%}
-          {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
-        "
-        src="{{ section.settings.image | image_url: width: 533 }}"
-        {% comment %} sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" {% endcomment %}
-        alt="{{ section.settings.image.alt | escape }}"
-        class="motion-reduce"
-        {% unless lazy_load == false %}
-          loading="lazy"
-        {% endunless %}
-        width="{{ section.settings.image.width }}"
-        height="{{ section.settings.image.height }}"
-      >
-    </figure>
-  {% endif %}
-
   <div class="page-width page-width--narrow">
     <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
       {{ page.content }}
     </div>
   </div>
 
-  <div class="page-width container-slide-page-custom">
+  <div class="container-slide-page-custom-mto">
     {% assign indexdude = 1 %}
     {% for block in section.blocks %}
       <div class="collection-slide-dude">
-        <div class="slide-page-custom">
+        <div class="slide-page-custom-mto">
           {% if block.settings.image1 %}
             <figure class="custom-page-figure">
               <img
@@ -176,7 +146,153 @@
     {% assign indexdude = indexdude | plus: 1 %}
     {% endfor %}
   </div>
+
+  <div>
+    {% for block in section.blocks %}
+      {% if block.type == 'link' %}
+        <div class="page-width page-width--narrow link-mto">
+          <div class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+            <a
+              href="{{ block.settings.link_url }}"
+              class="btn btn--secondary"
+              {% if block.settings.link_target_blank %}
+                target="_blank"
+                rel="noopener noreferrer"
+              {% endif %}
+            >
+              {{ block.settings.link_content }}
+            </a>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
+
+<div class="page-width">
+  {% assign idx = 1 %}
+  {% for block in section.blocks %}
+  <!-- The Modal -->
+  <div id="modal-image-{{ idx }}" class="modal-image-page modal-image-slider-page">
+
+    <!-- The Close Button -->
+    <span class="close-{{ idx }}">&times;</span>
+
+    <figure class="custom-page-figure">
+      <img class="modal-content" id="img-{{ idx }}" />
+    </figure>
+  </div>
+
+  <script>
+    // Get the modal
+    const modal{{ idx }} = document.getElementById("modal-image-{{ idx }}");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    {% comment %} const img{{ idx }} = document.querySelector(".image-item-{{ idx }}"); {% endcomment %}
+    const img{{ idx }} = document.querySelectorAll(".image-item-{{ idx }}");
+    
+    const modalImg{{ idx }} = document.getElementById("img-{{ idx }}");
+    {% comment %} {% if block.settings.image1 %}
+      const modalImg1{{idx }} = document.getElementById("img-{{ idx }}-{{ idxScript }}");
+    {% endif %}
+    {% assign idxScript = idxScript | plus: 1 %}
+
+    {% if block.settings.image2 %}
+      const modalImg2{{idx }} = document.getElementById("img-{{ idx }}-{{ idxScript }}");
+    {% endif %}
+    {% assign idxScript = idxScript | plus: 1 %}
+
+    {% if block.settings.image3 %}
+      const modalImg3{{idx }} = document.getElementById("img-{{ idx }}-{{ idxScript }}");
+    {% endif %}
+    {% assign idxScript = idxScript | plus: 1 %}
+
+    {% if block.settings.image4 %}
+      const modalImg4{{idx }} = document.getElementById("img-{{ idx }}-{{ idxScript }}");
+    {% endif %} {% endcomment %}
+    
+    img{{ idx }}.forEach(img => {
+      img.onclick = function(){
+        modal{{ idx }}.style.display = "flex";
+        modalImg{{idx }}.src = this.src;
+        {% comment %} {% if block.settings.image1 %}
+          modalImg1{{idx }}.src = this.src;
+        {% endif %}
+        {% assign idxScript = idxScript | plus: 1 %}
+
+        {% if block.settings.image2 %}
+          modalImg2{{idx }}.src = this.src;
+        {% endif %}
+        {% assign idxScript = idxScript | plus: 1 %}
+
+        {% if block.settings.image3 %}
+          modalImg3{{idx }}.src = this.src;
+        {% endif %}
+        {% assign idxScript = idxScript | plus: 1 %}
+
+        {% if block.settings.image4 %}
+          modalImg4{{idx }}.src = this.src;
+        {% endif %} {% endcomment %}
+      }
+    })
+    {% comment %} img{{ idx }}.onclick = function(){
+      modal{{ idx }}.style.display = "flex";
+      {% if block.settings.image1 %}
+        modalImg1{{idx }}.src = this.src;
+      {% endif %}
+      {% assign idxScript = idxScript | plus: 1 %}
+
+      {% if block.settings.image2 %}
+        modalImg2{{idx }}.src = this.src;
+      {% endif %}
+      {% assign idxScript = idxScript | plus: 1 %}
+
+      {% if block.settings.image3 %}
+        modalImg3{{idx }}.src = this.src;
+      {% endif %}
+      {% assign idxScript = idxScript | plus: 1 %}
+
+      {% if block.settings.image4 %}
+        modalImg4{{idx }}.src = this.src;
+      {% endif %}
+    } {% endcomment %}
+
+    // Get the <span> element that closes the modal
+    const span{{ idx }} = document.getElementsByClassName("close-{{ idx }}")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span{{ idx }}.onclick = function() {
+      modal{{ idx }}.style.display = "none";
+    } 
+  </script>
+  {% assign idx = idx | plus: 1 %}
+  {% endfor %}
+</div>
+
+{% if section.settings.image_bottom %}
+  <figure class="custom-page-figure">
+    <img
+      srcset="
+        {%- if section.settings.image_bottom.width >= 165 -%}{{ section.settings.image_bottom | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if section.settings.image_bottom.width >= 360 -%}{{ section.settings.image_bottom | image_url: width: 360 }} 360w,{%- endif -%}
+        {%- if section.settings.image_bottom.width >= 533 -%}{{ section.settings.image_bottom | image_url: width: 533 }} 533w,{%- endif -%}
+        {%- if section.settings.image_bottom.width >= 720 -%}{{ section.settings.image_bottom | image_url: width: 720 }} 720w,{%- endif -%}
+        {%- if section.settings.image_bottom.width >= 940 -%}{{ section.settings.image_bottom | image_url: width: 940 }} 940w,{%- endif -%}
+        {%- if section.settings.image_bottom.width >= 1066 -%}{{ section.settings.image_bottom | image_url: width: 1066 }} 1066w,{%- endif -%}
+        {{ section.settings.image_bottom | image_url }} {{ section.settings.image_bottom.width }}w
+      "
+      src="{{ section.settings.image_bottom | image_url: width: 533 }}"
+      {% comment %} sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" {% endcomment %}
+      alt="{{ section.settings.image_bottom.alt | escape }}"
+      class="motion-reduce"
+      {% unless lazy_load == false %}
+        loading="lazy"
+      {% endunless %}
+      width="{{ section.settings.image_bottom.width }}"
+      height="{{ section.settings.image_bottom.height }}"
+    >
+  </figure>
+{% endif %}
 
 <script>
   const allModal = document.querySelectorAll('.modal-image-slider-page');
@@ -197,22 +313,22 @@
   "settings": [
     {
       "type": "header",
-      "content": "Logo"
-    },
-    {
-      "type": "image_picker",
-      "id": "logo_title",
-      "label": "Logo Title"
-    },
-    {
-      "type": "header",
-      "content": "Image"
+      "content": "Image Top"
     },
     {
       "type": "image_picker",
       "id": "image",
-      "label": "Image"
-    }
+      "label": "Image Top"
+    },
+    {
+      "type": "header",
+      "content": "Image Bottom"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_bottom",
+      "label": "Image Bottom"
+    },
   ],
   "blocks": [
     {
@@ -251,6 +367,37 @@
           "type": "image_picker",
           "id": "image4",
           "label": "Image 4"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "name": "Link",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "Link"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link text"
+        },
+        {
+          "type": "richtext",
+          "id": "link_content",
+          "label": "Link content"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "checkbox",
+          "id": "link_target_blank",
+          "label": "Open link in new tab"
         }
       ]
     }

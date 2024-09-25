@@ -11,6 +11,13 @@ $(document).ready(function(){
     nextArrow: '<button type="button" class="slick-next">→</button>',
   });
 
+  $('.slide-page-custom-mto').slick({
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+  });
+
   $('.custom-slideshow--desktop').slick({
     arrows: false,
     autoplay: true,
@@ -37,6 +44,17 @@ $(document).ready(function(){
   });
   // End Slick
 
+  const slideMtos = $('.slide-page-custom-mto')
+  slideMtos.each((index, slideMto) => {
+    // console.log($(slideMto).children('.slick-list').children('.slick-track').children('.slick-slide:not(.slick-cloned)').children().children())
+    const imagesMto = $(slideMto).children('.slick-list').children('.slick-track').children('.slick-slide:not(.slick-cloned)').children().children()
+    const dotMto = $(slideMto).children('.slick-dots')
+    $(dotMto).children('li').each((index, dot) => {
+      $(dot).children('button').html($(imagesMto[index]).html())
+    })
+  })
+
+  // Swatch on Collectiom
   $('.card__information fieldset.product-form__input--swatch input').click(function(){
     const dataMediaVariant = $(this).attr('data-option-value-id')
 
@@ -47,6 +65,7 @@ $(document).ready(function(){
 
     $(selectedSlickContainer).slick('slickGoTo', dataSlickIndex);
   });
+  // End Swatch on Collectiom
 
   const accordionProductDesc = () => {
     let acc = document.getElementsByClassName("accordion");

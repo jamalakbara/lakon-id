@@ -23,6 +23,7 @@
     </div>
 
     {%- if section.settings.show_collection_image and collection.image -%}
+      {% comment %}
       <div class="collection-hero__image-container collection-hero-custom__image-container media gradient">
         <img
           srcset="
@@ -41,6 +42,30 @@
           height="{{ collection.image.height }}"
         >
       </div>
+      {% endcomment %}
+
+      <figure class="custom-page-figure" style="text-align: center;">
+        <img
+          srcset="
+            {%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
+            {%- if collection.image.width >= 360 -%}{{ collection.image | image_url: width: 360 }} 360w,{%- endif -%}
+            {%- if collection.image.width >= 533 -%}{{ collection.image | image_url: width: 533 }} 533w,{%- endif -%}
+            {%- if collection.image.width >= 720 -%}{{ collection.image | image_url: width: 720 }} 720w,{%- endif -%}
+            {%- if collection.image.width >= 940 -%}{{ collection.image | image_url: width: 940 }} 940w,{%- endif -%}
+            {%- if collection.image.width >= 1066 -%}{{ collection.image | image_url: width: 1066 }} 1066w,{%- endif -%}
+            {{ collection.image | image_url }} {{ collection.image.width }}w
+          "
+          src="{{ collection.image | image_url: width: 533 }}"
+          {% comment %} sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" {% endcomment %}
+          alt="{{ collection.image.alt | escape }}"
+          class="motion-reduce"
+          {% unless lazy_load == false %}
+            loading="lazy"
+          {% endunless %}
+          width="{{ collection.image.width }}"
+          height="{{ collection.image.height }}"
+        >
+      </figure>
     {%- endif -%}
   </div>
 </div>
