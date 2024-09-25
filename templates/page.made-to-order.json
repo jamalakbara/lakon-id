@@ -1,10 +1,64 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-made-to-order",
+      "blocks": {
+        "collections_t3pxnz": {
+          "type": "collections",
+          "settings": {
+            "title": "MEN",
+            "image1": "shopify://shop_images/ARADHANA3784.jpg",
+            "image2": "shopify://shop_images/ARADHANA3774.jpg",
+            "image3": "shopify://shop_images/ARADHANA3795.jpg",
+            "image4": "shopify://shop_images/ARADHANA3793.jpg"
+          }
+        },
+        "collections_i9dUm6": {
+          "type": "collections",
+          "settings": {
+            "title": "WOMEN",
+            "image1": "shopify://shop_images/ARADHANA2077.jpg",
+            "image2": "shopify://shop_images/ARADHANA2080.jpg",
+            "image3": "shopify://shop_images/ARADHANA2086.jpg",
+            "image4": "shopify://shop_images/ARADHANA2091.jpg"
+          }
+        },
+        "collections_LCYP6a": {
+          "type": "collections",
+          "settings": {
+            "title": "WEDDING ATTIRE",
+            "image1": "shopify://shop_images/ARADHANA_SESI_21594.jpg",
+            "image2": "shopify://shop_images/ARADHANA_SESI_21615.jpg",
+            "image3": "shopify://shop_images/ARADHANA_SESI_21612.jpg",
+            "image4": "shopify://shop_images/ARADHANA_SESI_21600.jpg"
+          }
+        },
+        "link_dKq3Eg": {
+          "type": "link",
+          "settings": {
+            "link_text": "",
+            "link_content": "<p>Click Here to know more about<br/>MADE TO ORDER</p>",
+            "link_url": "https://wa.me/6287750071000",
+            "link_target_blank": true
+          }
+        }
+      },
+      "block_order": [
+        "collections_t3pxnz",
+        "collections_i9dUm6",
+        "collections_LCYP6a",
+        "link_dKq3Eg"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     }
   },
