@@ -44,6 +44,7 @@
         },
         "link_dKq3Eg": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "link_text": "",
             "link_content": "<p>Click Here to know more about<br/>MADE TO ORDER</p>",
@@ -59,6 +60,29 @@
         "link_dKq3Eg"
       ],
       "settings": {
+      }
+    },
+    "rich_text_NXpFK3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GFfQJT": {
+          "type": "heading",
+          "settings": {
+            "heading": "MADE TO ORDER",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GFfQJT"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1727335526dade31a6": {
@@ -92,6 +116,7 @@
   },
   "order": [
     "main",
+    "rich_text_NXpFK3",
     "1727335526dade31a6"
   ]
 }
