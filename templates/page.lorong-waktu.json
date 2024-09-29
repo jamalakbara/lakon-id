@@ -16,21 +16,462 @@
           "type": "collections",
           "settings": {
             "title": "",
-            "image1": "shopify:\/\/shop_images\/1.jpg",
-            "image2": "shopify:\/\/shop_images\/1_Belakang.jpg"
+            "image1": "shopify://shop_images/1.jpg",
+            "image2": "shopify://shop_images/1_Belakang.jpg"
+          }
+        },
+        "collections_JNBn9W": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/2_f0f458b9-790f-4c75-a088-6fe654b20dc6.jpg",
+            "image2": "shopify://shop_images/2_Belakang_74c1711a-6a7b-4eec-b381-a2ea7204f5f5.jpg"
+          }
+        },
+        "collections_pRpLDG": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/3_37531970-21f9-4dd9-9939-9a0971bf1cc5.jpg",
+            "image2": "shopify://shop_images/3_Belakang_bf9c8afb-9edd-43d4-97ff-af48493cfa7a.jpg"
+          }
+        },
+        "collections_rbmEfQ": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/4_af689f0f-bba8-440d-af51-4addde2de7ff.jpg",
+            "image2": "shopify://shop_images/4_Belakang_b2989343-a244-4103-8d62-024cd61ed42a.jpg"
+          }
+        },
+        "collections_AtNYM4": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/5_0d48e7a3-691f-4b91-8a7f-09d3b886e0ea.jpg",
+            "image2": "shopify://shop_images/5_Belakang_35b21c23-d826-4826-8d8e-67bcebe03108.jpg"
+          }
+        },
+        "collections_VHqUxi": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/6_1a9a7885-51a2-4435-9482-3ed615d3c654.jpg",
+            "image2": "shopify://shop_images/6_Belakang_a143b1f9-ba55-4d5f-b92a-413d7d35adfd.jpg"
+          }
+        },
+        "collections_ziCwC3": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/7_be4b3ba2-7a2e-4c0f-9618-f63e3791dada.jpg",
+            "image2": "shopify://shop_images/7_Belakang_1fc4286e-7c03-4aeb-aea3-74d504548164.jpg"
+          }
+        },
+        "collections_ncAR6b": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/8_6bf312e1-f1a9-4aa6-889c-82c75ffe600b.jpg",
+            "image2": "shopify://shop_images/8_Belakang_d8bbbc83-f61a-465a-a3c0-5ce258ee9ccd.jpg"
+          }
+        },
+        "collections_hKMQP4": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/9_56c91d07-00ae-46de-ab47-d0a6a4425427.jpg",
+            "image2": "shopify://shop_images/9_Belakang_32727b24-127d-4358-8722-c718bf2f3392.jpg"
+          }
+        },
+        "collections_yGW4FG": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/10_6729e3f4-8dfc-483a-80fe-e5beeaba2fef.jpg",
+            "image2": "shopify://shop_images/10_Belakang_55c5197c-a711-4dc6-ad03-96abae099090.jpg"
+          }
+        },
+        "collections_6zmqAn": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/11_7c596994-1bc5-4ffb-ad15-6e9a8d4690a2.jpg",
+            "image2": "shopify://shop_images/11_Belakang_4eeb03d5-8fd0-4943-8a7a-3f8ed8899fd9.jpg"
+          }
+        },
+        "collections_Bz6979": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/12_c695177a-56b7-4689-a216-2571fe7f13bd.jpg",
+            "image2": "shopify://shop_images/12_Belakang_69459e53-bfa1-4ed7-86f6-c9e52e7c35be.jpg"
+          }
+        },
+        "collections_VCPhag": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/13_1f2cec61-4f53-482b-826d-52c4f4d9ac31.jpg",
+            "image2": "shopify://shop_images/13_Belakang_557400b6-92a0-49da-a5e1-ae05f2bbb8d8.jpg"
+          }
+        },
+        "collections_iJDq6j": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/14_2d87bcc4-e937-4c89-a8cb-eca6c82b61d4.jpg",
+            "image2": "shopify://shop_images/14_Belakang_0694ff2e-f9ce-4e08-8bb7-a7ce8bc48494.jpg"
+          }
+        },
+        "collections_iat8Fa": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/15_757249c9-49c6-4bbe-a7e0-2823b2cc78e2.jpg",
+            "image2": "shopify://shop_images/15_Belakang_4088b0ad-3bbd-4b4c-bd19-3b9fdb332fc6.jpg"
+          }
+        },
+        "collections_9cnyb3": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/16_263620ea-c75e-403e-b2b5-e6429dbd6999.jpg",
+            "image2": "shopify://shop_images/16_Belakang_1c90dad1-e0ba-4a5c-ba7c-b08a598cc872.jpg"
+          }
+        },
+        "collections_8T6Xi6": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/17_98269efc-a56f-4008-95b3-0e47ea83e45e.jpg",
+            "image2": "shopify://shop_images/17_Belakang_bff40ac4-6135-4b5b-9bfb-da99ed0453e8.jpg"
+          }
+        },
+        "collections_EJGczb": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/18_a24c2a65-f0ab-442c-ae76-89fc0722e874.jpg",
+            "image2": "shopify://shop_images/18_Belakang_7c24837e-e33b-4f1f-b516-862ee64c6c1b.jpg"
+          }
+        },
+        "collections_PQtyLH": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/19_cf4284f5-3957-4880-b1ca-9379e7c638af.jpg",
+            "image2": "shopify://shop_images/19_Belakang_e167b5db-fac5-43a0-a23c-b8e42b83592f.jpg"
+          }
+        },
+        "collections_4VcdhL": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/20_639f7df6-604b-4367-be89-490dec7da2d6.jpg",
+            "image2": "shopify://shop_images/20_Belakang_508a5f8a-00ac-4796-a58e-2782384a87de.jpg"
+          }
+        },
+        "collections_Tgj3YP": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/21_2bc5e315-4a73-45c9-867f-36cc307a9662.jpg",
+            "image2": "shopify://shop_images/21_Belakang_739cb8bf-3964-451e-86ff-5fc4456664c0.jpg"
+          }
+        },
+        "collections_jDGjFG": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/22_0cfb607b-b43f-46cb-b153-25683e15be95.jpg",
+            "image2": "shopify://shop_images/22_Belakang_a3caa93b-da65-46c2-9ff5-b262983cc1d6.jpg"
+          }
+        },
+        "collections_QwtYKt": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/23_e563f93e-0a01-4d32-986a-7fa67d222e65.jpg",
+            "image2": "shopify://shop_images/23_Belakang_e22d92dd-71fe-42e0-a158-a14573287ad3.jpg"
+          }
+        },
+        "collections_tMK79C": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/24_15ca2f81-9be0-4de7-a5e3-80121b91c095.jpg",
+            "image2": "shopify://shop_images/24_Belakang_9947de95-e4ee-4995-a830-ebc7455e566a.jpg"
+          }
+        },
+        "collections_3VcWeW": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/25_2438bb7f-54db-4b76-8a4b-7d89eaf9c925.jpg",
+            "image2": "shopify://shop_images/25_Belakang_db2a8a79-ef1c-4b35-9db9-09ad505d1bf3.jpg"
+          }
+        },
+        "collections_EfKX77": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/26_3af7f583-a413-4878-8454-3f17943ca9da.jpg",
+            "image2": "shopify://shop_images/26_Belakang_0e3631f0-336e-4e62-9093-7b6d3cfb61f5.jpg"
+          }
+        },
+        "collections_ptRH6U": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/27_ea2feb00-de90-4669-9504-926820df09cb.jpg",
+            "image2": "shopify://shop_images/27_Belakang_a052b743-7ced-43aa-ba6a-f35f475ff49a.jpg"
+          }
+        },
+        "collections_YFbUFB": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/28_3bd2487b-5f93-435f-8fb5-9f674ece82ee.jpg",
+            "image2": "shopify://shop_images/28_Belakang_937e8c12-f898-4267-8e84-ab18ca956def.jpg"
+          }
+        },
+        "collections_bNjEm3": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/29_b6f6cc28-0288-4003-8059-d5e3375b0418.jpg",
+            "image2": "shopify://shop_images/29_Belakang_a8047309-40e9-4ab0-9ff4-d609b5e0aaa1.jpg"
+          }
+        },
+        "collections_YiCTMx": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/30_326f265e-009d-45d1-b24e-b6c0b5b1a816.jpg",
+            "image2": "shopify://shop_images/30_Belakang_eb6297d9-03b1-49fb-8354-a0ac436f54da.jpg"
+          }
+        },
+        "collections_kaGypG": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/31_ce1186cd-fd65-4d88-8ef5-44849d7f0b30.jpg",
+            "image2": "shopify://shop_images/31_Belakang_9e12da8f-708e-4509-8004-510afe12f930.jpg"
+          }
+        },
+        "collections_UFqNeP": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/32_ec3d8d84-2f52-49f8-865e-584e43664d75.jpg",
+            "image2": "shopify://shop_images/32_Belakang_66c333ea-522b-4840-9446-404c6fb8f5a9.jpg"
+          }
+        },
+        "collections_bL3KQm": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/33_97e8eb76-c58c-4e0a-a7d9-e3e888528578.jpg",
+            "image2": "shopify://shop_images/33_Belakang_49795e83-a0a7-4e26-87bf-d3138b5229f4.jpg"
+          }
+        },
+        "collections_gVh9tm": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/34_8fd99950-d953-4127-868d-a35680aec534.jpg",
+            "image2": "shopify://shop_images/34_Belakang_00d2f4ff-45dc-4308-a066-3fbeb68cc878.jpg"
+          }
+        },
+        "collections_Ktzcc6": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/35_3a0ce698-2ac6-4c05-b3d4-b520b29704ba.jpg",
+            "image2": "shopify://shop_images/35_Belakang_96926f6f-8764-4839-be2c-4cf376df3e44.jpg"
+          }
+        },
+        "collections_4WJVDB": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/36_8ec56fce-d1d2-4abd-8b34-6c5f33eadfe2.jpg",
+            "image2": "shopify://shop_images/36_Belakang_f8457456-15d0-468d-af01-671ce303cda2.jpg"
+          }
+        },
+        "collections_Qxnpbx": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/37_03ee8de0-9c0d-42ce-bacb-56b5e8092e00.jpg",
+            "image2": "shopify://shop_images/37_Belakang_3c68b024-b22e-47fe-beaf-14dfd3dca807.jpg"
+          }
+        },
+        "collections_kbhdQi": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/38_62ab726c-b49b-4974-a78f-1301da76f1de.jpg",
+            "image2": "shopify://shop_images/38_Belakang_b1c462b3-90fe-4ae5-9705-ed973e700718.jpg"
+          }
+        },
+        "collections_mrPjn4": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/39_3b4bfd49-9df7-4450-8281-86d2b513ae09.jpg",
+            "image2": "shopify://shop_images/39_Belakang_7af4f361-7f44-403c-afbb-5781e7b1d3bd.jpg"
+          }
+        },
+        "collections_zDeMtY": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/40_6300b065-71e1-41bb-875a-7e601aecd68b.jpg",
+            "image2": "shopify://shop_images/40_Belakang_2bf2f34b-de00-49ec-901d-8973edfc28b1.jpg"
+          }
+        },
+        "collections_HgRUfM": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/41_a2271483-f930-4250-a433-53dfdde7827f.jpg",
+            "image2": "shopify://shop_images/41_Belakang_697a518e-2c4e-4817-b446-2752e04d79bb.jpg"
+          }
+        },
+        "collections_4V6kBb": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/42_99404787-8a5a-45a0-80b4-a2f2c74d60a4.jpg",
+            "image2": "shopify://shop_images/42_Belakang_4d1460fc-5e1a-42a3-873f-517de5d4c280.jpg"
+          }
+        },
+        "collections_catLFD": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/43_8440b001-27cb-43ed-8de8-442d743e0c3d.jpg",
+            "image2": "shopify://shop_images/43_Belakang_d2b6ddde-5cb9-4ac9-a1ea-4ae1d99b486b.jpg"
+          }
+        },
+        "collections_aJjkRd": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/44_54b53a47-2174-4bb8-95d6-4ab8e97e26dd.jpg",
+            "image2": "shopify://shop_images/44_Belakang_27e3bffe-4663-4e5c-bf6d-fabc4f5263b9.jpg"
+          }
+        },
+        "collections_AhBPbD": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/45_5868b674-9c66-4ca8-86b2-2b532cb7e96f.jpg",
+            "image2": "shopify://shop_images/45_Belakang_fd9b8ca5-fad2-4373-bb8a-7ed5791ffc95.jpg"
+          }
+        },
+        "collections_mfqdTb": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/46_f0e03239-e7b3-4b9e-b67e-3b8fb5af85a8.jpg",
+            "image2": "shopify://shop_images/46_Belakang_420b0a43-666c-4f96-b991-2185587da727.jpg"
+          }
+        },
+        "collections_nV8hjL": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/47_44d87b6a-a9dc-4873-979e-467e280ae115.jpg",
+            "image2": "shopify://shop_images/47_Belakang_aa9091f5-06a0-439c-9450-fe63353defde.jpg"
+          }
+        },
+        "collections_ndi97w": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/48_bdc3c5cd-d9ec-4703-a159-1e8a455bc70b.jpg",
+            "image2": "shopify://shop_images/48_Belakang_853e2f15-75d4-458d-9c08-8530dc8ebc0d.jpg"
+          }
+        },
+        "collections_cpXFk7": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/49_de3019e3-2483-4121-93a9-98ff813d2f19.jpg",
+            "image2": "shopify://shop_images/49_Belakang_d6573d4d-2179-4ba4-8cc8-faa61fcae0f2.jpg"
+          }
+        },
+        "collections_9i34AV": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/50_59b110d2-e177-4b2c-bfee-165245606b9e.jpg",
+            "image2": "shopify://shop_images/50_Belakang_b5229f02-142e-41ad-ac2d-045814b25d1f.jpg"
           }
         }
       },
       "block_order": [
-        "collections_Jt3MQH"
+        "collections_Jt3MQH",
+        "collections_JNBn9W",
+        "collections_pRpLDG",
+        "collections_rbmEfQ",
+        "collections_AtNYM4",
+        "collections_VHqUxi",
+        "collections_ziCwC3",
+        "collections_ncAR6b",
+        "collections_hKMQP4",
+        "collections_yGW4FG",
+        "collections_6zmqAn",
+        "collections_Bz6979",
+        "collections_VCPhag",
+        "collections_iJDq6j",
+        "collections_iat8Fa",
+        "collections_9cnyb3",
+        "collections_8T6Xi6",
+        "collections_EJGczb",
+        "collections_PQtyLH",
+        "collections_4VcdhL",
+        "collections_Tgj3YP",
+        "collections_jDGjFG",
+        "collections_QwtYKt",
+        "collections_tMK79C",
+        "collections_3VcWeW",
+        "collections_EfKX77",
+        "collections_ptRH6U",
+        "collections_YFbUFB",
+        "collections_bNjEm3",
+        "collections_YiCTMx",
+        "collections_kaGypG",
+        "collections_UFqNeP",
+        "collections_bL3KQm",
+        "collections_gVh9tm",
+        "collections_Ktzcc6",
+        "collections_4WJVDB",
+        "collections_Qxnpbx",
+        "collections_kbhdQi",
+        "collections_mrPjn4",
+        "collections_zDeMtY",
+        "collections_HgRUfM",
+        "collections_4V6kBb",
+        "collections_catLFD",
+        "collections_aJjkRd",
+        "collections_AhBPbD",
+        "collections_mfqdTb",
+        "collections_nV8hjL",
+        "collections_ndi97w",
+        "collections_cpXFk7",
+        "collections_9i34AV"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28,
         "subtitle": "",
-        "logo_subtitle": "shopify:\/\/shop_images\/LORONG_WAKTU.png",
-        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 2 - 2 0 2 3<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>\"Lakon Indonesia x Cahyo\"<\/p><p>Irsan 5th Collection for Lakon Indonesia<\/p><p>​<\/p><p>06 . 09 . 2022<\/p><p>Tenda LaPiazza Kelapa Gading, Jakarta<\/p><p>Indonesia<\/p><p><strong>Everything that is done with the H E A R T will give S O U L<\/strong><\/p><p><strong>​<\/strong><\/p><p><strong>And enliven the W O R K<\/strong><\/p><p><strong> <\/strong><\/p><p><strong>A work that has Soul will open countless doors<\/strong><\/p><p><strong>​<\/strong><\/p><p><strong>In the end… it brings itself in a JOURNEY TRHOUGH TIME that knows no limits<\/strong><\/p><p><strong>​<\/strong><\/p><p><strong>Indeed, E T E R N I T Y is not of mortals.<\/strong><\/p>",
-        "image": "shopify:\/\/shop_images\/LAKON_Lorong_Waktu_2022-832_edited.jpg"
+        "logo_subtitle": "shopify://shop_images/LORONG_WAKTU.png",
+        "content": "<p>R e a d y t o W e a r</p><p>2 0 2 2 - 2 0 2 3</p><p>​</p><p>MEN’S / WOMEN’S COLLECTION</p><p>\"Lakon Indonesia x Cahyo\"</p><p>Irsan 5th Collection for Lakon Indonesia</p><p>​</p><p>06 . 09 . 2022</p><p>Tenda LaPiazza Kelapa Gading, Jakarta</p><p>Indonesia</p><p><strong>Everything that is done with the H E A R T will give S O U L</strong></p><p><strong>​</strong></p><p><strong>And enliven the W O R K</strong></p><p><strong> </strong></p><p><strong>A work that has Soul will open countless doors</strong></p><p><strong>​</strong></p><p><strong>In the end… it brings itself in a JOURNEY TRHOUGH TIME that knows no limits</strong></p><p><strong>​</strong></p><p><strong>Indeed, E T E R N I T Y is not of mortals.</strong></p>",
+        "image": "shopify://shop_images/LAKON_Lorong_Waktu_2022-832_edited.jpg"
       }
     }
   },
