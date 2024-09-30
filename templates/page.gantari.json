@@ -16,21 +16,462 @@
           "type": "collections",
           "settings": {
             "title": "",
-            "image1": "shopify:\/\/shop_images\/1_5f84f59b-0e49-459d-98fa-7e9611e1af50.jpg",
-            "image2": "shopify:\/\/shop_images\/1_Belakang_cecbf805-a67f-4b58-9388-f3614fabfe04.jpg"
+            "image1": "shopify://shop_images/1_5f84f59b-0e49-459d-98fa-7e9611e1af50.jpg",
+            "image2": "shopify://shop_images/1_Belakang_cecbf805-a67f-4b58-9388-f3614fabfe04.jpg"
+          }
+        },
+        "collections_cF4HU9": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI2.jpg",
+            "image2": "shopify://shop_images/GANTARI2_Belakang.jpg"
+          }
+        },
+        "collections_PbfJmd": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI3.jpg",
+            "image2": "shopify://shop_images/GANTARI3_Belakang.jpg"
+          }
+        },
+        "collections_MjXrPp": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI4.jpg",
+            "image2": "shopify://shop_images/GANTARI4_Belakang.jpg"
+          }
+        },
+        "collections_GYm6Gr": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI5.jpg",
+            "image2": "shopify://shop_images/GANTARI5_Belakang.jpg"
+          }
+        },
+        "collections_XcJDXD": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI6.jpg",
+            "image2": "shopify://shop_images/GANTARI6_Belakang.jpg"
+          }
+        },
+        "collections_ntDp64": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI7.jpg",
+            "image2": "shopify://shop_images/GANTARI7_Belakang.jpg"
+          }
+        },
+        "collections_dCkdQt": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI8.jpg",
+            "image2": "shopify://shop_images/GANTARI8_Belakang.jpg"
+          }
+        },
+        "collections_ynQVaW": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI9.jpg",
+            "image2": "shopify://shop_images/GANTARI9_Belakang.jpg"
+          }
+        },
+        "collections_9iprVg": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI10.jpg",
+            "image2": "shopify://shop_images/GANTARI10_Belakang.jpg"
+          }
+        },
+        "collections_bCtKC6": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI11.jpg",
+            "image2": "shopify://shop_images/GANTARI11_Belakang.jpg"
+          }
+        },
+        "collections_Mdrzng": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI12.jpg",
+            "image2": "shopify://shop_images/GANTARI12_Belakang.jpg"
+          }
+        },
+        "collections_iJ9WdV": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI13.jpg",
+            "image2": "shopify://shop_images/GANTARI13_Belakang.jpg"
+          }
+        },
+        "collections_Mfcg6K": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI14.jpg",
+            "image2": "shopify://shop_images/GANTARI14_Belakang.jpg"
+          }
+        },
+        "collections_qYfcXr": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI15.jpg",
+            "image2": "shopify://shop_images/GANTARI15_Belakang.jpg"
+          }
+        },
+        "collections_FiraRH": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI16.jpg",
+            "image2": "shopify://shop_images/GANTARI16_Belakang.jpg"
+          }
+        },
+        "collections_9Hab9f": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI17.jpg",
+            "image2": "shopify://shop_images/GANTARI17_Belakang.jpg"
+          }
+        },
+        "collections_NhY3Ht": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI18.jpg",
+            "image2": "shopify://shop_images/GANTARI18_Belakang.jpg"
+          }
+        },
+        "collections_iJCNM6": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI19.jpg",
+            "image2": "shopify://shop_images/GANTARI19_Belakang.jpg"
+          }
+        },
+        "collections_YDqpRj": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI20.jpg",
+            "image2": "shopify://shop_images/GANTARI20_Belakang.jpg"
+          }
+        },
+        "collections_aJphFr": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI21.jpg",
+            "image2": "shopify://shop_images/GANTARI21_Belakang.jpg"
+          }
+        },
+        "collections_pK3xFp": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI22.jpg",
+            "image2": "shopify://shop_images/GANTARI22_Belakang.jpg"
+          }
+        },
+        "collections_kgAwgY": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI23.jpg",
+            "image2": "shopify://shop_images/GANTARI23_Belakang.jpg"
+          }
+        },
+        "collections_BGikhG": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI24.jpg",
+            "image2": "shopify://shop_images/GANTARI24_Belakang.jpg"
+          }
+        },
+        "collections_dJXhMn": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI25.jpg",
+            "image2": "shopify://shop_images/GANTARI25_Belakang.jpg"
+          }
+        },
+        "collections_fhmMJw": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI26.jpg",
+            "image2": "shopify://shop_images/GANTARI26_Belakang.jpg"
+          }
+        },
+        "collections_eiwazC": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI27.jpg",
+            "image2": "shopify://shop_images/GANTARI27_Belakang.jpg"
+          }
+        },
+        "collections_3df7Bf": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI28.jpg",
+            "image2": "shopify://shop_images/GANTARI28_Belakang.jpg"
+          }
+        },
+        "collections_QhUBcj": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI29.jpg",
+            "image2": "shopify://shop_images/GANTARI29_Belakang.jpg"
+          }
+        },
+        "collections_qJKaWf": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI30.jpg",
+            "image2": "shopify://shop_images/GANTARI30_BElakang.jpg"
+          }
+        },
+        "collections_ccmQe8": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI31.jpg",
+            "image2": "shopify://shop_images/GANTARI31_Belakang.jpg"
+          }
+        },
+        "collections_6EHMqd": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI32.jpg",
+            "image2": "shopify://shop_images/GANTARI32_Belakang.jpg"
+          }
+        },
+        "collections_hXrUwW": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI33.jpg",
+            "image2": "shopify://shop_images/GANTARI33_Belakang.jpg"
+          }
+        },
+        "collections_QMtqYx": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI34.jpg",
+            "image2": "shopify://shop_images/GANTARI34_Belakang.jpg"
+          }
+        },
+        "collections_ADj3aR": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI35.jpg",
+            "image2": "shopify://shop_images/GANTARI35_Belakang.jpg"
+          }
+        },
+        "collections_xtBEWd": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI36.jpg",
+            "image2": "shopify://shop_images/GANTARI36_Belakang.jpg"
+          }
+        },
+        "collections_EmQBHD": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI37.jpg",
+            "image2": "shopify://shop_images/GANTARI37_Belakang.jpg"
+          }
+        },
+        "collections_xdjV4e": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI38.jpg",
+            "image2": "shopify://shop_images/GANTARI38_Belakang.jpg"
+          }
+        },
+        "collections_fypgNr": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI39.jpg",
+            "image2": "shopify://shop_images/GANTARI39_Belakang.jpg"
+          }
+        },
+        "collections_9CKcXw": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI40.jpg",
+            "image2": "shopify://shop_images/GANTARI40_Belakang.jpg"
+          }
+        },
+        "collections_rfgVwE": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI41.jpg",
+            "image2": "shopify://shop_images/GANTARI41_Belakang.jpg"
+          }
+        },
+        "collections_3YQTLC": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI42.jpg",
+            "image2": "shopify://shop_images/GANTARI42_Belakang.jpg"
+          }
+        },
+        "collections_HxcJUT": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI43.jpg",
+            "image2": "shopify://shop_images/GANTARI43_Belakang.jpg"
+          }
+        },
+        "collections_FtFBNY": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI44.jpg",
+            "image2": "shopify://shop_images/GANTARI44_Belakang.jpg"
+          }
+        },
+        "collections_g8LV4V": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI45.jpg",
+            "image2": "shopify://shop_images/GANTARI45_Belakang.jpg"
+          }
+        },
+        "collections_eaPxiV": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI46.jpg",
+            "image2": "shopify://shop_images/GANTARI46_Belakang.jpg"
+          }
+        },
+        "collections_mcc89Q": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI47.jpg",
+            "image2": "shopify://shop_images/GANTARI47_Belakang.jpg"
+          }
+        },
+        "collections_BC9yrN": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI48.jpg",
+            "image2": "shopify://shop_images/GANTARI48_Belakang.jpg"
+          }
+        },
+        "collections_MaXAky": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI49.jpg",
+            "image2": "shopify://shop_images/GANTARI49_Belakang.jpg"
+          }
+        },
+        "collections_byyJRY": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/GANTARI50.jpg",
+            "image2": "shopify://shop_images/GANTARI50_Belakang.jpg"
           }
         }
       },
       "block_order": [
-        "collections_DE3pTC"
+        "collections_DE3pTC",
+        "collections_cF4HU9",
+        "collections_PbfJmd",
+        "collections_MjXrPp",
+        "collections_GYm6Gr",
+        "collections_XcJDXD",
+        "collections_ntDp64",
+        "collections_dCkdQt",
+        "collections_ynQVaW",
+        "collections_9iprVg",
+        "collections_bCtKC6",
+        "collections_Mdrzng",
+        "collections_iJ9WdV",
+        "collections_Mfcg6K",
+        "collections_qYfcXr",
+        "collections_FiraRH",
+        "collections_9Hab9f",
+        "collections_NhY3Ht",
+        "collections_iJCNM6",
+        "collections_YDqpRj",
+        "collections_aJphFr",
+        "collections_pK3xFp",
+        "collections_kgAwgY",
+        "collections_BGikhG",
+        "collections_dJXhMn",
+        "collections_fhmMJw",
+        "collections_eiwazC",
+        "collections_3df7Bf",
+        "collections_QhUBcj",
+        "collections_qJKaWf",
+        "collections_ccmQe8",
+        "collections_6EHMqd",
+        "collections_hXrUwW",
+        "collections_QMtqYx",
+        "collections_ADj3aR",
+        "collections_xtBEWd",
+        "collections_EmQBHD",
+        "collections_xdjV4e",
+        "collections_fypgNr",
+        "collections_9CKcXw",
+        "collections_rfgVwE",
+        "collections_3YQTLC",
+        "collections_HxcJUT",
+        "collections_FtFBNY",
+        "collections_g8LV4V",
+        "collections_eaPxiV",
+        "collections_mcc89Q",
+        "collections_BC9yrN",
+        "collections_MaXAky",
+        "collections_byyJRY"
       ],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28,
         "subtitle": "",
-        "logo_subtitle": "shopify:\/\/shop_images\/GANTARI.png",
-        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 1 - 2 0 2 2<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p><p>\"The Final Journey to Java\"<\/p><p>​<\/p><p>09 . 10 . 2021<\/p><p>Prambanan Temple, Yogyakarta<\/p><p>Indonesia<\/p><p><strong>This period is very important for history of human civilization<\/strong><\/p><p><strong>We have been given a chance to stop for a moment<\/strong><\/p><p><strong>A chance to realize…<\/strong><\/p><p><strong>Review…<\/strong><\/p><p><strong>And make corrections…<\/strong><\/p><p><strong>So that in the end we can execute everything in a better way<\/strong><\/p><p><strong>And produce works that are maximum and perfect<\/strong><\/p>",
-        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2021-04-28_at_16.21.50.jpg"
+        "logo_subtitle": "shopify://shop_images/GANTARI.png",
+        "content": "<p>R e a d y t o W e a r</p><p>2 0 2 1 - 2 0 2 2</p><p>​</p><p>MEN’S / WOMEN’S COLLECTION</p><p>\"The Final Journey to Java\"</p><p>​</p><p>09 . 10 . 2021</p><p>Prambanan Temple, Yogyakarta</p><p>Indonesia</p><p><strong>This period is very important for history of human civilization</strong></p><p><strong>We have been given a chance to stop for a moment</strong></p><p><strong>A chance to realize…</strong></p><p><strong>Review…</strong></p><p><strong>And make corrections…</strong></p><p><strong>So that in the end we can execute everything in a better way</strong></p><p><strong>And produce works that are maximum and perfect</strong></p>",
+        "image": "shopify://shop_images/WhatsApp_Image_2021-04-28_at_16.21.50.jpg"
       }
     }
   },
