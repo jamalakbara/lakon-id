@@ -184,6 +184,14 @@ img[class*="image-item-"] {
 
 .info-with-icon__child figure {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-with-icon__child figure img {
+  width: 24px;
+  height: 24px;
 }
 
 .container-text-title-price{
