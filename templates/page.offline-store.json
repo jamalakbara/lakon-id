@@ -1,10 +1,84 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-offline-store",
+      "blocks": {
+        "store_L9ryQt": {
+          "type": "store",
+          "settings": {
+            "heading": "JAKARTA UTARA",
+            "content": "<p>FLAGSHIP STORE</p><p>SUMMARECON MALL KELAPA GADING 5</p><p>LEVEL 1/5</p><p>DKI JAKARTA</p>",
+            "image": "shopify://shop_images/MALL_KELAPA_GADING_660e77f5-b3fb-4d40-b00d-16ad4abe7b47.png"
+          }
+        },
+        "store_bL9Fxr": {
+          "type": "store",
+          "settings": {
+            "heading": "JAKARTA SELATAN",
+            "content": "<p>Pondok Indah Mall 3</p><p>2nd Floor</p><p>#PIM 3 - F2 210</p><p>DKI JAKARTA</p>",
+            "image": "shopify://shop_images/PIM_3e69ef63-9aa5-4305-8202-71fdecdef748.jpg"
+          }
+        },
+        "store_c8xBaK": {
+          "type": "store",
+          "settings": {
+            "heading": "TANGERANG",
+            "content": "<p>SUMMARECON MALL SERPONG 2</p><p>Ground Floor / 207</p><p>Gading Serpong</p><p>Tangerang, Banten</p>",
+            "image": "shopify://shop_images/SUMMARECON_MALL_SERPONG_db4bc451-f9b8-485c-86db-c2a0d95e0bac.jpg"
+          }
+        },
+        "store_4M8fjL": {
+          "type": "store",
+          "settings": {
+            "heading": "BALI",
+            "content": "<p>SAMASTA</p><p>MOVEN PICK</p><p>Jl. Wanagiri</p><p>JIMBARAN, BALI</p>",
+            "image": "shopify://shop_images/BALI_50817cd3-137e-4914-b36d-b9d2ea1c4135.jpg"
+          }
+        },
+        "store_8mMYyF": {
+          "type": "store",
+          "settings": {
+            "heading": "BANDUNG",
+            "content": "<p>SUMMARECON MALL BANDUNG </p><p>Ground Floor</p><p>BANDUNG</p>",
+            "image": "shopify://shop_images/SUMMARECON_MALL_BADUNG_ce366a1e-7fbc-4550-a627-8ad56090353d.jpg"
+          }
+        },
+        "store_39EAw3": {
+          "type": "store",
+          "settings": {
+            "heading": "BY PILLAR",
+            "content": "<p>Plaza Indonesia level 2 - #056</p><p>Jl. M.H. Thamrin No.062 Kav. 28-30, 10350</p>",
+            "image": "shopify://shop_images/PILLAR_ef80fa8d-82e1-4006-b073-2535d84a93ef.jpg"
+          }
+        },
+        "store_NErHbP": {
+          "type": "store",
+          "settings": {
+            "heading": "FRANCE",
+            "content": "<p>Printemps Haussmann</p><p>4th floor</p><p>64 Boulevardd Haussmann</p><p>75009 Paris</p>",
+            "image": "shopify://shop_images/PARIS_13306032-73c5-4755-a14e-fc9375fc8fcb.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "store_L9ryQt",
+        "store_bL9Fxr",
+        "store_c8xBaK",
+        "store_4M8fjL",
+        "store_8mMYyF",
+        "store_39EAw3",
+        "store_NErHbP"
+      ],
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     }
   },
