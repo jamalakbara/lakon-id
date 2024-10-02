@@ -1,0 +1,35 @@
+<div class="info-with-icon__child">
+  {% if block.settings.image-icon %}
+    <figure>
+      <img
+        src="{{ block.settings.image-icon | image_url }}"
+        {% if block.settings.image-icon.alt != blank %}
+          alt="{{ block.settings.image-icon.alt | escape }}"
+        {% else %}
+          role="presentation"
+        {% endif %}
+        height="24"
+        width="24"
+        loading="lazy"
+      >
+    </figure>
+  {% else %}
+    <figure>
+      <svg width="24" height="24" role="img" aria-hidden="true" class="Icon_icon-semantic-success__AlM7q" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24"><path d="m9 19.707-5.854-5.853.708-.708L9 18.293 20.146 7.146l.708.708z"></path></svg>
+    </figure>
+  {% endif %}
+
+  {% if block.settings.info %}
+    <h4>{{ block.settings.heading }}</h4>
+    <p>
+      {{ block.settings.info }}
+
+      {% if block.settings.additional_info %}
+        <span>
+          {{ block.settings.additional_info }}
+        </span>
+      {% endif %}
+    </p>
+  {% endif %}
+  
+</div>
