@@ -71,10 +71,17 @@
             "heading": "MADE TO ORDER",
             "heading_size": "h2"
           }
+        },
+        "text_C7GnME": {
+          "type": "text",
+          "settings": {
+            "text": "<p>requirement</p>"
+          }
         }
       },
       "block_order": [
-        "heading_GFfQJT"
+        "heading_GFfQJT",
+        "text_C7GnME"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -94,9 +101,9 @@
             "form_id": "187318",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
