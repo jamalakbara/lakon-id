@@ -505,6 +505,32 @@ table[class*="size-chart"] img{
 }
 
 @media screen and (max-width: 749px) {
+  #modal-size-chart-button{
+    text-align: center;
+  }
+
+  #radio-selection-size-chart{
+    align-self: flex-end;
+    position: absolute;
+    top: 10px;
+  }
+
+  .size-chart-product{
+    width: 90vw;
+    height: 80lvh;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  table[class*="size-chart"] img{
+    width: 100%;
+  }
+
   .link-mto div a{
     font-size: 16px;
   }
@@ -536,9 +562,9 @@ table[class*="size-chart"] img{
     text-transform: uppercase;
   }
 
-  .info-with-icon__child {
+  /* .info-with-icon__child {
     display: none;
-  }
+  } */
 
   .description-custom .accordion{
     margin: 0 !important;

@@ -784,7 +784,7 @@
             {% render 'icon-arrow' %}
           </a>
 
-          <div class="info-with-icon">
+          <div class="info-with-icon small-hide">
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'info-with-icon' %}
@@ -793,7 +793,7 @@
             {% endfor %}
           </div>
 
-          <div class="product-care">
+          <div class="product-care small-hide">
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'product-care' %}
@@ -850,6 +850,24 @@
           </div>
         {% endif %}
       {%- endfor -%}
+    </div>
+
+    <div class="info-with-icon medium-hide large-up-hide page-width-custom">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'info-with-icon' %}
+            {% render 'info-with-icon', block: block %}
+        {% endcase %}
+      {% endfor %}
+    </div>
+
+    <div class="product-care medium-hide large-up-hide page-width-custom">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'product-care' %}
+            {% render 'product-care', block: block %}
+        {% endcase %}
+      {% endfor %}
     </div>
 
     <script>
