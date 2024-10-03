@@ -36,6 +36,13 @@
             "swatch_shape": "circle"
           }
         },
+        "size_chart_G3FwiG": {
+          "type": "size_chart",
+          "settings": {
+            "title_size_chart": "Size Chart",
+            "page": "size-chart"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -82,6 +89,12 @@
             "info": "Product details",
             "additional_info": ""
           }
+        },
+        "product_care_xWEFWn": {
+          "type": "product-care",
+          "settings": {
+            "image_product_care": "shopify://shop_images/Add_a_subheading.png"
+          }
         }
       },
       "block_order": [
@@ -89,13 +102,15 @@
         "title",
         "price",
         "variant_picker",
+        "size_chart_G3FwiG",
         "quantity_selector",
         "buy_buttons",
         "description",
         "share",
         "info_with_icon_aiDNkW",
         "info_with_icon_yFFmph",
-        "info_with_icon_fMLiDQ"
+        "info_with_icon_fMLiDQ",
+        "product_care_xWEFWn"
       ],
       "settings": {
         "enable_sticky_info": true,
