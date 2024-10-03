@@ -5,6 +5,10 @@
        font-style: normal;
 }
 
+.description-custom{
+  margin-top: 1.5rem;
+}
+
 *{
   font-family: 'TIMESS__', sans-serif !important;
 }
@@ -256,7 +260,7 @@ img[class*="image-item-"] {
 
 .product__description-custom {
   display: grid;
-  grid-template-columns: repeat(12, minmax(52px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 15px;
 }
 
