@@ -9,21 +9,6 @@
 */
 {
   "sections": {
-    "video_RwWeJR": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=LRB-EW6xbOU",
-        "cover_image": "shopify://shop_images/hqdefault.jpg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "main": {
       "type": "page-the-tailor-made-01",
       "blocks": {
@@ -811,11 +796,26 @@
       ],
       "settings": {
       }
+    },
+    "video_RwWeJR": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=LRB-EW6xbOU",
+        "cover_image": "shopify://shop_images/hqdefault.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "video_RwWeJR",
     "main",
-    "add_more_block_Vh979p"
+    "add_more_block_Vh979p",
+    "video_RwWeJR"
   ]
 }
