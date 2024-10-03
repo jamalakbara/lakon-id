@@ -792,6 +792,15 @@
               {% endcase %}
             {% endfor %}
           </div>
+
+          <div class="product-care">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'product-care' %}
+                  {% render 'product-care', block: block %}
+              {% endcase %}
+            {% endfor %}
+          </div>
         </section>
 
         <section
@@ -2474,6 +2483,21 @@
           "type": "text",
           "id": "additional_info",
           "label": "additional_info"
+        }
+      ]
+    },
+    {
+      "type": "product-care",
+      "name": "Product care",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Product care",
+        },
+        {
+          "type": "image_picker",
+          "id": "image_product_care",
+          "label": "Product Care Image"
         }
       ]
     }
