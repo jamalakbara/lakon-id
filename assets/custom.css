@@ -445,11 +445,15 @@ figure.product-thumbnail-custom{
 }
 
 .product-price-custom{
-  position: absolute;
-  top: 22%;
-  right: 5px;
   background-color: rgba(255,255,255, 0.5);
-  padding: 4px 8px;
+  padding: 8px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.product-container-with-price-custom{
+  position: relative;
 }
 
 .product-price-custom .price__container{
@@ -509,8 +513,19 @@ table[class*="size-chart"] img{
 }
 
 @media screen and (max-width: 749px) {
+  .product-price-custom .price{
+    opacity: 0.7;
+  }
+
   #modal-size-chart-button{
     text-align: center;
+  }
+
+  .product__media-icon{
+    left: unset !important;
+    /* top: unset !important;
+    bottom: 1.2rem; */
+    right: 1.2rem;
   }
 
   #radio-selection-size-chart{
@@ -602,9 +617,9 @@ table[class*="size-chart"] img{
 
   .slider-buttons{
     position: absolute;
-    top: 6px;
-    right: 10px;
-    background: rgba(255,255,255, 0.5);
+    bottom: 6px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.5);
     z-index: 10;
   }
   
