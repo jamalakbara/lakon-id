@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "video_background_4JUa3T": {
@@ -15,8 +15,8 @@
         "video_hN4XiA": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b0b0e792db324810a6a4e416d1d94664.mp4",
-            "video_image": "shopify:\/\/shop_images\/LP_Landscape.jpg",
+            "video_link": "https://cdn.shopify.com/videos/c/o/v/b0b0e792db324810a6a4e416d1d94664.mp4",
+            "video_image": "shopify://shop_images/LP_Landscape.jpg",
             "overlay_opacity": 0,
             "title": "",
             "text": "",
@@ -40,19 +40,26 @@
         "featured_collection_YNxnig": {
           "type": "featured_collection",
           "settings": {
-            "collection": "men"
+            "collection": "tops-all"
           }
         },
         "featured_collection_jTrzFQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "women"
+            "collection": "bottoms-all"
+          }
+        },
+        "featured_collection_yGnkRJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags"
           }
         }
       },
       "block_order": [
         "featured_collection_YNxnig",
-        "featured_collection_jTrzFQ"
+        "featured_collection_jTrzFQ",
+        "featured_collection_yGnkRJ"
       ],
       "settings": {
         "title": "",
