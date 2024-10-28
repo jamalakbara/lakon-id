@@ -34,6 +34,15 @@
       "settings": {
       }
     },
+    "custom_liquid_wRaT3z": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
     "collection_list_dLahLP": {
       "type": "collection-list",
       "blocks": {
@@ -65,7 +74,7 @@
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -77,6 +86,7 @@
   },
   "order": [
     "video_background_4JUa3T",
+    "custom_liquid_wRaT3z",
     "collection_list_dLahLP"
   ]
 }
