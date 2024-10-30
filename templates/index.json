@@ -90,7 +90,7 @@
           "type": "image_block",
           "settings": {
             "image_collection": "shopify://shop_images/Untitled_design.png",
-            "link_collection": ""
+            "link_collection": "shopify://pages/about-lakon"
           }
         }
       },
@@ -117,7 +117,7 @@
           "type": "image_block",
           "settings": {
             "image_collection": "shopify://shop_images/WEBSITE_SQUARE_4.jpg",
-            "link_collection": ""
+            "link_collection": "shopify://pages/about-lakon"
           }
         },
         "image_block_GTmrpz": {
