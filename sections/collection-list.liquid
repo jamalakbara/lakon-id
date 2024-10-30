@@ -74,12 +74,23 @@
           >
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
             {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
-            {% render 'card-collection-custom',
-              card_collection: block.settings.collection,
-              media_aspect_ratio: section.settings.image_ratio,
-              columns: columns,
-              placeholder_image: placeholder_image
-            %}
+            {% case block.type  %}
+            {% when 'featured_collection' %}
+              {% render 'card-collection-custom',
+                card_collection: block.settings.collection,
+                media_aspect_ratio: section.settings.image_ratio,
+                columns: columns,
+                placeholder_image: placeholder_image
+              %}
+            {% when 'image_block' %}
+              {% render 'card-collection-image-custom',
+                card_collection: block.settings.image_collection,
+                card_collection_url: block.settings.link_collection,
+                media_aspect_ratio: section.settings.image_ratio,
+                columns: columns,
+                placeholder_image: placeholder_image
+              %}
+            {% endcase %}
           </li>
         {%- endfor -%}
       </ul>
@@ -278,6 +289,22 @@
           "type": "collection",
           "id": "collection",
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        }
+      ]
+    },
+    {
+      "type": "image_block",
+      "name": "Collection Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_collection",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "link_collection",
+          "label": "Link"
         }
       ]
     }
