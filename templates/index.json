@@ -83,6 +83,13 @@
         "padding_bottom": 4
       }
     },
+    "image_banner_custom_A8dzBj": {
+      "type": "image-banner-custom",
+      "settings": {
+        "banner_image": "shopify://shop_images/WEBSITE_BANNER_1_6.jpg",
+        "banner_link": "shopify://pages/about-lakon"
+      }
+    },
     "collection_list_zpf7M9": {
       "type": "collection-list",
       "blocks": {
@@ -97,6 +104,7 @@
       "block_order": [
         "image_block_LC3qFk"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -166,6 +174,7 @@
     "video_background_4JUa3T",
     "custom_liquid_wRaT3z",
     "collection_list_dLahLP",
+    "image_banner_custom_A8dzBj",
     "collection_list_zpf7M9",
     "collection_list_TLCtde"
   ]
