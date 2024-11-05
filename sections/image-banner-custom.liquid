@@ -1,4 +1,4 @@
-<a href="{{ section.settings.banner_link }}" class="custom-page-figure">
+<a href="{{ section.settings.banner_link }}" class="custom-page-figure {% if section.settings.banner_image_mobile %}small-hide{% endif %}">
   <img
     srcset="
       {%- if section.settings.banner_image.width >= 165 -%}{{ section.settings.banner_image | image_url: width: 165 }} 165w,{%- endif -%}
@@ -19,7 +19,31 @@
     width="{{ section.settings.banner_image.width }}"
     height="{{ section.settings.banner_image.height }}"
   >
+</a>
+{% if section.settings.banner_image_mobile %}
+  <a href="{{ section.settings.banner_link }}" class="custom-page-figure medium-hide large-up-hide">
+    <img
+      srcset="
+        {%- if section.settings.banner_image_mobile.width >= 165 -%}{{ section.settings.banner_image_mobile | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if section.settings.banner_image_mobile.width >= 360 -%}{{ section.settings.banner_image_mobile | image_url: width: 360 }} 360w,{%- endif -%}
+        {%- if section.settings.banner_image_mobile.width >= 533 -%}{{ section.settings.banner_image_mobile | image_url: width: 533 }} 533w,{%- endif -%}
+        {%- if section.settings.banner_image_mobile.width >= 720 -%}{{ section.settings.banner_image_mobile | image_url: width: 720 }} 720w,{%- endif -%}
+        {%- if section.settings.banner_image_mobile.width >= 940 -%}{{ section.settings.banner_image_mobile | image_url: width: 940 }} 940w,{%- endif -%}
+        {%- if section.settings.banner_image_mobile.width >= 1066 -%}{{ section.settings.banner_image_mobile | image_url: width: 1066 }} 1066w,{%- endif -%}
+        {{ section.settings.banner_image_mobile | image_url }} {{ section.settings.banner_image_mobile.width }}w
+      "
+      src="{{ section.settings.banner_image_mobile | image_url: width: 533 }}"
+      {% comment %} sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 130 | divided_by: 4 }}px, (min-width: 990px) calc((100vw - 130px) / 4), (min-width: 750px) calc((100vw - 120px) / 3), calc((100vw - 35px) / 2)" {% endcomment %}
+      alt="{{ section.settings.banner_image_mobile.alt | escape }}"
+      class="motion-reduce"
+      {% unless lazy_load == false %}
+        loading="lazy"
+      {% endunless %}
+      width="{{ section.settings.banner_image_mobile.width }}"
+      height="{{ section.settings.banner_image_mobile.height }}"
+    >
   </a>
+{% endif %}
 
 {% schema %}
 {
@@ -29,6 +53,11 @@
       "type": "image_picker",
       "id": "banner_image",
       "label": "Banner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "banner_image_mobile",
+      "label": "Banner Image Mobile"
     },
     {
       "type": "url",
