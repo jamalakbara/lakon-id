@@ -16,13 +16,13 @@
           "type": "video",
           "settings": {
             "video_link": "",
-            "video_image": "shopify://shop_images/DSC_6409_copy_1.jpg",
+            "video_image": "shopify://shop_images/DSC_9466_copy.jpg",
             "overlay_opacity": 0,
             "title": "",
             "text": "",
-            "color_text": "#ffffff",
+            "color_text": "#130505",
             "button_label": "",
-            "button_link": "",
+            "button_link": "shopify://collections/christmas-collection",
             "color_btn_bg": "#ffffff",
             "color_btn_text": "#ffffff"
           }
