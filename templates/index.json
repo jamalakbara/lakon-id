@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "image_banner_custom_iBEiBT": {
+      "type": "image-banner-custom",
+      "settings": {
+        "banner_image": "shopify://shop_images/DSC_9466_copy.jpg",
+        "banner_image_mobile": "shopify://shop_images/DSC_9466_copy.jpg",
+        "banner_link": "shopify://collections/christmas-collection"
+      }
+    },
     "video_background_4JUa3T": {
       "type": "video-background",
       "blocks": {
@@ -31,6 +39,7 @@
       "block_order": [
         "video_hN4XiA"
       ],
+      "disabled": true,
       "settings": {}
     },
     "custom_liquid_wRaT3z": {
@@ -170,6 +179,7 @@
     }
   },
   "order": [
+    "image_banner_custom_iBEiBT",
     "video_background_4JUa3T",
     "custom_liquid_wRaT3z",
     "collection_list_dLahLP",
