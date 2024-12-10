@@ -12,7 +12,7 @@
     "image_banner_custom_iBEiBT": {
       "type": "image-banner-custom",
       "settings": {
-        "banner_image": "shopify://shop_images/DSC_9466_copy.jpg",
+        "banner_image": "shopify://shop_images/DSC_9466_copy_1.jpg",
         "banner_image_mobile": "shopify://shop_images/DSC_9466_copy.jpg",
         "banner_link": "shopify://collections/christmas-collection"
       }
