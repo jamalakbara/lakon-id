@@ -51,6 +51,15 @@
         "padding_bottom": 20
       }
     },
+    "custom_liquid_8DxDP8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
     "collection_list_dLahLP": {
       "type": "collection-list",
       "blocks": {
@@ -198,6 +207,7 @@
     "collection_list_dLahLP",
     "image_banner_custom_A8dzBj",
     "collection_list_Xtzp8M",
+    "custom_liquid_8DxDP8",
     "collection_list_TLCtde"
   ]
 }
