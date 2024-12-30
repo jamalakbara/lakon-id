@@ -78,6 +78,7 @@
         "featured_collection_jTrzFQ",
         "featured_collection_yGnkRJ"
       ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -96,6 +97,46 @@
       "settings": {
         "banner_image": "shopify://shop_images/WEBSITE_BANNER_1_6.jpg",
         "banner_link": "shopify://pages/about-lakon"
+      }
+    },
+    "collection_list_Xtzp8M": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_ndCHAn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "holiday-collection"
+          }
+        },
+        "featured_collection_dMqGxJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christmas-collection"
+          }
+        },
+        "featured_collection_hWxDgX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-idea"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_ndCHAn",
+        "featured_collection_dMqGxJ",
+        "featured_collection_hWxDgX"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "3",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "collection_list_zpf7M9": {
@@ -184,6 +225,7 @@
     "custom_liquid_wRaT3z",
     "collection_list_dLahLP",
     "image_banner_custom_A8dzBj",
+    "collection_list_Xtzp8M",
     "collection_list_zpf7M9",
     "collection_list_TLCtde"
   ]
