@@ -1,10 +1,98 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-upcycled-denim",
+      "blocks": {
+        "collections_wyJ7BY": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 01",
+            "image1": "shopify:\/\/shop_images\/01_d3b864a2-0653-4bf9-964b-ed8fb472c555.jpg"
+          }
+        },
+        "collections_mgmXMQ": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 02",
+            "image1": "shopify:\/\/shop_images\/02.jpg"
+          }
+        },
+        "collections_AUpjVJ": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 03",
+            "image1": "shopify:\/\/shop_images\/Untitled_design_4.png"
+          }
+        },
+        "collections_8cwnLD": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 04",
+            "image1": "shopify:\/\/shop_images\/04.jpg"
+          }
+        },
+        "collections_gam7Qa": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 05",
+            "image1": "shopify:\/\/shop_images\/05.jpg"
+          }
+        },
+        "collections_t4FCbD": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 06",
+            "image1": "shopify:\/\/shop_images\/06.jpg"
+          }
+        },
+        "collections_AzeAJx": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 07",
+            "image1": "shopify:\/\/shop_images\/07.jpg"
+          }
+        },
+        "collections_AHRdPn": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 08",
+            "image1": "shopify:\/\/shop_images\/08.jpg"
+          }
+        },
+        "collections_9YDg9R": {
+          "type": "collections",
+          "settings": {
+            "title": "UPCYLED DENIM 09",
+            "image1": "shopify:\/\/shop_images\/09.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_wyJ7BY",
+        "collections_mgmXMQ",
+        "collections_AUpjVJ",
+        "collections_8cwnLD",
+        "collections_gam7Qa",
+        "collections_t4FCbD",
+        "collections_AzeAJx",
+        "collections_AHRdPn",
+        "collections_9YDg9R"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "logo_subtitle": "shopify:\/\/shop_images\/WhatsApp_Image_2024-09-04_at_10.41.18.jpg",
+        "content": "<p>R e a d y t o W e a r<\/p><p>2 0 2 2 - 2 0 2 3<\/p><p>​<\/p><p>MEN’S \/ WOMEN’S COLLECTION<\/p>"
       }
     }
   },

@@ -1,14 +1,360 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
       "type": "page-pasar-malam",
+      "blocks": {
+        "collections_Ek7QHD": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/01_FRONT.jpg",
+            "image2": "shopify://shop_images/01_BACK.jpg"
+          }
+        },
+        "collections_eKFjbj": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/02_FRONT.jpg",
+            "image2": "shopify://shop_images/02_BACK.jpg"
+          }
+        },
+        "collections_LqYmgi": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/03_FRONT.jpg",
+            "image2": "shopify://shop_images/03_BACK.jpg"
+          }
+        },
+        "collections_RLBJQE": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/04_FRONT.jpg",
+            "image2": "shopify://shop_images/04_BACK.jpg"
+          }
+        },
+        "collections_EgczyT": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/05_FRONT.jpg",
+            "image2": "shopify://shop_images/05_BACK.jpg"
+          }
+        },
+        "collections_iaW4m3": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/06_FRONT.jpg",
+            "image2": "shopify://shop_images/06_BACK.jpg"
+          }
+        },
+        "collections_n79rDQ": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/07_FRONT.jpg",
+            "image2": "shopify://shop_images/07_BACK.jpg"
+          }
+        },
+        "collections_iYAp4x": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/08_FRONT.jpg",
+            "image2": "shopify://shop_images/08_BACK.jpg"
+          }
+        },
+        "collections_ed4pq9": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/09_FRONT.jpg",
+            "image2": "shopify://shop_images/09_BACK.jpg"
+          }
+        },
+        "collections_ApedXP": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/10_FRONT.jpg",
+            "image2": "shopify://shop_images/10_BACK.jpg"
+          }
+        },
+        "collections_4TM9Uk": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/11_FRONT.jpg",
+            "image2": "shopify://shop_images/11_BACK.jpg"
+          }
+        },
+        "collections_a9FTxh": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/12_FRONT.jpg",
+            "image2": "shopify://shop_images/12_BACK.jpg"
+          }
+        },
+        "collections_eMPzXV": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/13_FRONT.jpg",
+            "image2": "shopify://shop_images/13_FRONT.jpg"
+          }
+        },
+        "collections_8G7bNj": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/14_FRONT.jpg",
+            "image2": "shopify://shop_images/14_BACK.jpg"
+          }
+        },
+        "collections_xPAKKe": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/15_FRONT.jpg",
+            "image2": "shopify://shop_images/15_BACK.jpg"
+          }
+        },
+        "collections_pVKMUz": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/16_FRONT.jpg",
+            "image2": "shopify://shop_images/16_BACK.jpg"
+          }
+        },
+        "collections_txxCMU": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/17_FRONT.jpg",
+            "image2": "shopify://shop_images/17_BACK.jpg"
+          }
+        },
+        "collections_D6CpTj": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/18_FRONT.jpg",
+            "image2": "shopify://shop_images/18_BACK.jpg"
+          }
+        },
+        "collections_i87WRk": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/19_FRONT.jpg",
+            "image2": "shopify://shop_images/19_BACK.jpg"
+          }
+        },
+        "collections_x4dUWe": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/20_FRONT.jpg",
+            "image2": "shopify://shop_images/20_BACK.jpg"
+          }
+        },
+        "collections_9ehaHY": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/21_FRONT.jpg",
+            "image2": "shopify://shop_images/21_BACK.jpg"
+          }
+        },
+        "collections_PqMQV4": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/22_FRONT.jpg",
+            "image2": "shopify://shop_images/22_BACK.jpg"
+          }
+        },
+        "collections_Y7WThR": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/23_FRONT.jpg",
+            "image2": "shopify://shop_images/23_BACK.jpg"
+          }
+        },
+        "collections_8rTqBM": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/24_FRONT.jpg",
+            "image2": "shopify://shop_images/24_BACK.jpg"
+          }
+        },
+        "collections_Mh8Dkk": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/25_FRONT.jpg",
+            "image2": "shopify://shop_images/25_BACK.jpg"
+          }
+        },
+        "collections_iAfP9j": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/26_FRONT.jpg",
+            "image2": "shopify://shop_images/26_BACK.jpg"
+          }
+        },
+        "collections_zkXUjn": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/27_FRONT.jpg",
+            "image2": "shopify://shop_images/27_BACK.jpg"
+          }
+        },
+        "collections_xy8hPT": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/28_FRONT.jpg",
+            "image2": "shopify://shop_images/28_BACK.jpg"
+          }
+        },
+        "collections_MYFmzN": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/29_FRONT.jpg",
+            "image2": "shopify://shop_images/29_BACK.jpg"
+          }
+        },
+        "collections_XLhTpD": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/30_FRONT.jpg",
+            "image2": "shopify://shop_images/30_BACK.jpg"
+          }
+        },
+        "collections_XhVfjW": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/31_FRONT.jpg",
+            "image2": "shopify://shop_images/31_BACK.jpg"
+          }
+        },
+        "collections_t9Ejqx": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/32_FRONT.jpg",
+            "image2": "shopify://shop_images/32_BACK.jpg"
+          }
+        },
+        "collections_tByeAz": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/33_FRONT.jpg",
+            "image2": "shopify://shop_images/33_BACK.jpg"
+          }
+        },
+        "collections_tU6xkE": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/34_FRONT.jpg",
+            "image2": "shopify://shop_images/34_BACK.jpg"
+          }
+        },
+        "collections_wGw7iL": {
+          "type": "collections",
+          "settings": {
+            "title": "",
+            "image1": "shopify://shop_images/35_FRONT.jpg",
+            "image2": "shopify://shop_images/35_BACK.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "collections_Ek7QHD",
+        "collections_eKFjbj",
+        "collections_LqYmgi",
+        "collections_RLBJQE",
+        "collections_EgczyT",
+        "collections_iaW4m3",
+        "collections_n79rDQ",
+        "collections_iYAp4x",
+        "collections_ed4pq9",
+        "collections_ApedXP",
+        "collections_4TM9Uk",
+        "collections_a9FTxh",
+        "collections_eMPzXV",
+        "collections_8G7bNj",
+        "collections_xPAKKe",
+        "collections_pVKMUz",
+        "collections_txxCMU",
+        "collections_D6CpTj",
+        "collections_i87WRk",
+        "collections_x4dUWe",
+        "collections_9ehaHY",
+        "collections_PqMQV4",
+        "collections_Y7WThR",
+        "collections_8rTqBM",
+        "collections_Mh8Dkk",
+        "collections_iAfP9j",
+        "collections_zkXUjn",
+        "collections_xy8hPT",
+        "collections_MYFmzN",
+        "collections_XLhTpD",
+        "collections_XhVfjW",
+        "collections_t9Ejqx",
+        "collections_tByeAz",
+        "collections_tU6xkE",
+        "collections_wGw7iL"
+      ],
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 28,
+        "subtitle": "",
+        "logo_subtitle": "shopify://shop_images/Logo_Pasar_Malam_Alt2_copy_4.png",
+        "content": "<p>R e a d y t o W e a r</p><p>2 0 2 4 - 2 0 2 5 </p><p>MEN’S / WOMEN’S COLLECTION</p><p>\"Lakon Indonesia\"</p><p>Irsan 7th Collection for Lakon Indonesia</p><p>​</p><p>30 . 07 . 2024</p><p>Summarecon Mall Serpong, Jakarta</p><p>Indonesia</p>"
+      }
+    },
+    "video_LKCjDA": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "video_LKCjDA"
   ]
 }
