@@ -77,48 +77,50 @@
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
 
       <div class="grid__item product__media-wrapper">
-        {% render 'product-media-gallery-custom', variant_images: variant_images %}
-        <div class="product-price-custom">
-          {%- for block in section.blocks -%}
-            {%- case block.type -%}
-                {%- when 'price' -%}
-                <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                  {%- render 'price',
-                    product: product,
-                    use_variant: true,
-                    show_badges: true,
-                    price_class: 'price--large'
-                  -%}
-                </div>
-                {%- if product.quantity_price_breaks_configured? -%}
-                  <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
-                    <span>{{ 'products.product.volume_pricing.note' | t }}</span>
+        <div class="product-container-with-price-custom">
+          {% render 'product-media-gallery-custom', variant_images: variant_images %}
+          <div class="product-price-custom">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                  {%- when 'price' -%}
+                  <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+                    {%- render 'price',
+                      product: product,
+                      use_variant: true,
+                      show_badges: true,
+                      price_class: 'price--large'
+                    -%}
                   </div>
-                {%- endif -%}
-                {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
-                  <div class="product__tax caption rte">
-                    {%- if cart.duties_included and cart.taxes_included -%}
-                      {{ 'products.product.duties_and_taxes_included' | t }}
-                    {%- elsif cart.taxes_included -%}
-                      {{ 'products.product.taxes_included' | t }}
-                    {%- elsif cart.duties_included -%}
-                      {{ 'products.product.duties_included' | t }}
-                    {%- endif -%}
-                    {%- if shop.shipping_policy.body != blank -%}
-                      {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-                    {%- endif -%}
+                  {%- if product.quantity_price_breaks_configured? -%}
+                    <div class="volume-pricing-note" id="Volume-Note-{{ section.id }}">
+                      <span>{{ 'products.product.volume_pricing.note' | t }}</span>
+                    </div>
+                  {%- endif -%}
+                  {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
+                    <div class="product__tax caption rte">
+                      {%- if cart.duties_included and cart.taxes_included -%}
+                        {{ 'products.product.duties_and_taxes_included' | t }}
+                      {%- elsif cart.taxes_included -%}
+                        {{ 'products.product.taxes_included' | t }}
+                      {%- elsif cart.duties_included -%}
+                        {{ 'products.product.duties_included' | t }}
+                      {%- endif -%}
+                      {%- if shop.shipping_policy.body != blank -%}
+                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                  <div {{ block.shopify_attributes }}>
+                    {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
+                    {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
+                      <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                      {{ form | payment_terms }}
+                    {%- endform -%}
                   </div>
-                {%- endif -%}
-                <div {{ block.shopify_attributes }}>
-                  {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
-                  {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
-                    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                    {{ form | payment_terms }}
-                  {%- endform -%}
-                </div>
-              
-              {%- endcase -%}
-          {%- endfor -%}
+                
+                {%- endcase -%}
+            {%- endfor -%}
+          </div>
         </div>
       </div>
       
@@ -784,37 +786,22 @@
             {% render 'icon-arrow' %}
           </a>
 
-          <div class="info-with-icon">
-            <div class="info-with-icon__child">
-              <figure>
-                <svg width="24" height="24" role="img" aria-hidden="true" class="Icon_icon-semantic-success__AlM7q" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24"><path d="m9 19.707-5.854-5.853.708-.708L9 18.293 20.146 7.146l.708.708z"></path></svg>
-              </figure>
-              <p>
-                Free delivery to store
-                <span>
-                  Information on delivery returns
-                </span>
-              </p>
-            </div>
-  
-            <div class="info-with-icon__child">
-              <figure>
-                <svg width="24" height="24" role="img" aria-hidden="true" class="Icon_icon-content-1__kPDLF" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24"><path d="M12 2C9.355 2 6.875 3.542 5.682 5.929c-1.295 2.589-.724 5.925 1.511 8.909.072.105 4.391 6.585 4.391 6.585l.416.624.416-.624 4.377-6.567c2.25-3.002 2.82-6.338 1.525-8.927C17.125 3.542 14.645 2 12 2m3.999 12.25c-.016.02-.019.022-3.999 5.994-3.98-5.972-3.983-5.974-3.993-5.987-2.017-2.693-2.552-5.639-1.43-7.881C7.602 4.326 9.73 3 12 3s4.398 1.325 5.423 3.376c1.122 2.242.587 5.188-1.424 7.874M12 5C9.794 5 8 6.794 8 9s1.794 4 4 4 4-1.794 4-4-1.794-4-4-4m0 7c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3-1.346 3-3 3"></path></svg>
-              </figure>
-              <p>
-                Store avaliablity
-              </p>
-            </div>
-  
-            <div class="info-with-icon__child">
-              <figure>
-                <svg width="24" height="24" role="img" aria-hidden="true" class="Icon_icon-content-1__kPDLF" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 24 24"><path d="M9 3 3 5.15V11h4v10h10V11h4V5.15l-5.83-2.12zm5.912 1 .036.013A3 3 0 0 1 12 6.5a3 3 0 0 1-2.948-2.487L9.088 4zM20 10h-4v10H8V10H4V5.85l4.098-1.49C8.494 6.153 10.09 7.5 12 7.5s3.506-1.347 3.902-3.14L20 5.85z"></path></svg>
-              </figure>
-              <p>
-                Product details
-              </p>
-            </div>
-  
+          <div class="info-with-icon small-hide">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'info-with-icon' %}
+                  {% render 'info-with-icon', block: block %}
+              {% endcase %}
+            {% endfor %}
+          </div>
+
+          <div class="product-care small-hide">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'product-care' %}
+                  {% render 'product-care', block: block %}
+              {% endcase %}
+            {% endfor %}
           </div>
         </section>
 
@@ -867,6 +854,24 @@
       {%- endfor -%}
     </div>
 
+    <div class="info-with-icon medium-hide large-up-hide page-width-custom">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'info-with-icon' %}
+            {% render 'info-with-icon', block: block %}
+        {% endcase %}
+      {% endfor %}
+    </div>
+
+    <div class="product-care medium-hide large-up-hide page-width-custom">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'product-care' %}
+            {% render 'product-care', block: block %}
+        {% endcase %}
+      {% endfor %}
+    </div>
+
     <script>
       // initiate description element
       const description = document.querySelector('.description-custom .product__description-custom');
@@ -900,11 +905,12 @@
       // prepare array of description
       const arrayOfDescription = getArrayDescription(description)
 
-      // clear current content in description
-      description.replaceChildren()
-
+      
       // create new description element
       if (arrayOfDescription.length > 0) {
+        // clear current content in description
+        description.replaceChildren()
+
         arrayOfDescription.forEach((descriptions, i) => {
           const div = document.createElement('div')
           div.classList.add('description-section')
@@ -955,6 +961,23 @@
           sectionAccordion.appendChild(divPanel)
           description.appendChild(sectionAccordion)
         })
+      } else {
+        if (description.firstElementChild && description.firstElementChild.tagName !== 'H2') {
+          const div = document.createElement('div');
+          div.classList.add('description-section');
+  
+          const h2 = document.createElement('h2');
+          h2.innerHTML = 'Description';
+          div.appendChild(h2);
+  
+          description.childNodes.forEach((node) => {
+            if (node.nodeType === Node.ELEMENT_NODE) {
+          div.appendChild(node);
+            }
+          });
+  
+          description.replaceChildren(div);
+        }
       }
     </script>
 
@@ -1047,7 +1070,6 @@
 
   const radioSelection = document.querySelectorAll('.size-chart-custom')
   const radioSelectionSection = document.querySelector('#radio-selection-size-chart')
-  console.log(radioSelection)
 
   radioSelection.forEach((radio, idx) => {
     if (idx !== 0) {
@@ -2477,6 +2499,42 @@
           "default": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.default",
           "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_3.label",
           "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+        }
+      ]
+    },
+    {
+      "type": "info-with-icon",
+      "name": "Info with icon",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image-icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "info",
+          "label": "info"
+        },
+        {
+          "type": "text",
+          "id": "additional_info",
+          "label": "additional_info"
+        }
+      ]
+    },
+    {
+      "type": "product-care",
+      "name": "Product care",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Product care",
+        },
+        {
+          "type": "image_picker",
+          "id": "image_product_care",
+          "label": "Product Care Image"
         }
       ]
     }

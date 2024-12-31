@@ -1,26 +1,34 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "image_banner_custom_iBEiBT": {
+      "type": "image-banner-custom",
+      "settings": {
+        "banner_image": "shopify://shop_images/DSC_9466_copy_1.jpg",
+        "banner_image_mobile": "shopify://shop_images/DSC_9466_copy.jpg",
+        "banner_link": "shopify://collections/christmas-collection"
+      }
+    },
     "video_background_4JUa3T": {
       "type": "video-background",
       "blocks": {
         "video_hN4XiA": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b0b0e792db324810a6a4e416d1d94664.mp4",
-            "video_image": "shopify:\/\/shop_images\/LP_Landscape.jpg",
+            "video_link": "shopify://collections/christmas-collection",
+            "video_image": "shopify://shop_images/DSC_9466_copy.jpg",
             "overlay_opacity": 0,
             "title": "",
             "text": "",
-            "color_text": "#ffffff",
+            "color_text": "#000000",
             "button_label": "",
             "button_link": "",
             "color_btn_bg": "#ffffff",
@@ -31,7 +39,25 @@
       "block_order": [
         "video_hN4XiA"
       ],
+      "disabled": true,
+      "settings": {}
+    },
+    "custom_liquid_wRaT3z": {
+      "type": "custom-liquid",
       "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_8DxDP8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 16,
+        "padding_bottom": 20
       }
     },
     "collection_list_dLahLP": {
@@ -40,36 +66,148 @@
         "featured_collection_YNxnig": {
           "type": "featured_collection",
           "settings": {
-            "collection": "men"
+            "collection": "tops-all"
           }
         },
         "featured_collection_jTrzFQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "women"
+            "collection": "bottoms-all"
+          }
+        },
+        "featured_collection_yGnkRJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bags"
           }
         }
       },
       "block_order": [
         "featured_collection_YNxnig",
-        "featured_collection_jTrzFQ"
+        "featured_collection_jTrzFQ",
+        "featured_collection_yGnkRJ"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "3",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "image_banner_custom_A8dzBj": {
+      "type": "image-banner-custom",
+      "settings": {
+        "banner_image": "shopify://shop_images/WEBSITE_BANNER_1_6.jpg",
+        "banner_link": "shopify://pages/about-lakon"
+      }
+    },
+    "collection_list_Xtzp8M": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_ndCHAn": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "holiday-collection"
+          }
+        },
+        "featured_collection_dMqGxJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "christmas-collection"
+          }
+        },
+        "featured_collection_hWxDgX": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gift-idea"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_ndCHAn",
+        "featured_collection_dMqGxJ",
+        "featured_collection_hWxDgX"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
-        "columns_mobile": "1",
+        "columns_mobile": "3",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "collection_list_TLCtde": {
+      "type": "collection-list",
+      "blocks": {
+        "image_block_Xja4iG": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_square_2_3.jpg",
+            "link_collection": "shopify://pages/about-lakon"
+          }
+        },
+        "image_block_GTmrpz": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_SQUARE_5.jpg",
+            "link_collection": "shopify://pages/pasar-malam"
+          }
+        },
+        "image_block_3ncjxD": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_SQUARE_6.jpg",
+            "link_collection": "shopify://pages/2024"
+          }
+        },
+        "image_block_GhGLDQ": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_SQUARE_7.jpg",
+            "link_collection": "shopify://pages/made-to-order"
+          }
+        }
+      },
+      "block_order": [
+        "image_block_Xja4iG",
+        "image_block_GTmrpz",
+        "image_block_3ncjxD",
+        "image_block_GhGLDQ"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "4",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     }
   },
   "order": [
+    "image_banner_custom_iBEiBT",
     "video_background_4JUa3T",
-    "collection_list_dLahLP"
+    "custom_liquid_wRaT3z",
+    "collection_list_dLahLP",
+    "image_banner_custom_A8dzBj",
+    "collection_list_Xtzp8M",
+    "custom_liquid_8DxDP8",
+    "collection_list_TLCtde"
   ]
 }

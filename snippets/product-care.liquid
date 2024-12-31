@@ -1,0 +1,23 @@
+{% if block.settings.image_product_care %}
+    <figure class="product-care__figure" data-media-variant={{ value.id }}>
+    <img
+        srcset="
+        {%- if block.settings.image_product_care.width >= 165 -%}{{ block.settings.image_product_care | image_url: width: 165 }} 165w,{%- endif -%}
+        {%- if block.settings.image_product_care.width >= 360 -%}{{ block.settings.image_product_care | image_url: width: 360 }} 360w,{%- endif -%}
+        {%- if block.settings.image_product_care.width >= 533 -%}{{ block.settings.image_product_care | image_url: width: 533 }} 533w,{%- endif -%}
+        {%- if block.settings.image_product_care.width >= 720 -%}{{ block.settings.image_product_care | image_url: width: 720 }} 720w,{%- endif -%}
+        {%- if block.settings.image_product_care.width >= 940 -%}{{ block.settings.image_product_care | image_url: width: 940 }} 940w,{%- endif -%}
+        {%- if block.settings.image_product_care.width >= 1066 -%}{{ block.settings.image_product_care | image_url: width: 1066 }} 1066w,{%- endif -%}
+        {{ block.settings.image_product_care | image_url }} {{ block.settings.image_product_care.width }}w
+        "
+        src="{{ block.settings.image_product_care | image_url: width: 533 }}"
+        alt="{{ block.settings.image_product_care.alt | escape }}"
+        class="motion-reduce"
+        {% unless lazy_load == false %}
+        loading="lazy"
+        {% endunless %}
+        width="{{ block.settings.image_product_care.width }}"
+        height="{{ block.settings.image_product_care.height }}"
+    >
+    </figure>
+{% endif %}
