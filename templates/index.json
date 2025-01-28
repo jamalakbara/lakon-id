@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSC_9466_copy_1.jpg",
+            "image_link": "shopify://collections/christmas-collection",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -34,6 +35,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/HEAD_WEBSITE_LAKONINDONESIA.png",
+            "image_link": "shopify://collections/rik",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
