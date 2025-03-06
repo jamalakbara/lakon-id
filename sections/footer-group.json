@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -31,13 +40,21 @@
           "settings": {
             "show_social": true
           }
+        },
+        "text_ppzRaR": {
+          "type": "text",
+          "settings": {
+            "heading": "Our Company",
+            "subtext": "<p>PT Lakon Cipta Budaya<br/>Plaza Summarecon Serpong, Tangerang 15810, Banten</p><p>+62 21 47866523</p>"
+          }
         }
       },
       "block_order": [
         "link_list_qWnMn8",
         "link_list_4CPcFA",
         "link_list_GVQkpV",
-        "brand_information_AygMcc"
+        "brand_information_AygMcc",
+        "text_ppzRaR"
       ],
       "settings": {
         "color_scheme": "scheme-1",
