@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -40,7 +40,7 @@
           "type": "store",
           "settings": {
             "heading": "BALI",
-            "content": "<p>SAMASTA</p><p>MOVEN PICK</p><p>Jl. Wanagiri</p><p>JIMBARAN, BALI</p>",
+            "content": "<p>SAMASTA</p><p>Jl. Wanagiri</p><p>JIMBARAN, BALI</p>",
             "image": "shopify://shop_images/BALI_50817cd3-137e-4914-b36d-b9d2ea1c4135.jpg"
           }
         },
@@ -78,8 +78,7 @@
         "store_39EAw3",
         "store_NErHbP"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
