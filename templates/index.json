@@ -30,30 +30,10 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_c9r6jw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/HEAD_WEBSITE_LAKONINDONESIA.png",
-            "image_link": "shopify://collections/rik",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://collections/rik",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_YFbqYc",
-        "slide_c9r6jw"
+        "slide_YFbqYc"
       ],
       "settings": {
         "layout": "full_bleed",
