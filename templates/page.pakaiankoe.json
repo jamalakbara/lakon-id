@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -470,7 +470,7 @@
         "collections_P9CYEW": {
           "type": "collections",
           "settings": {
-            "title": "",
+            "title": "PAKAIANKOE 51",
             "image1": "shopify://shop_images/PAKE51.jpg",
             "image2": "shopify://shop_images/PAKE51_Belakang.jpg"
           }
@@ -478,7 +478,7 @@
         "collections_mK3Lff": {
           "type": "collections",
           "settings": {
-            "title": "",
+            "title": "PAKAIANKOE 52",
             "image1": "shopify://shop_images/PAKE52.jpg",
             "image2": "shopify://shop_images/PAKE52_Belakang.jpg"
           }
@@ -920,8 +920,7 @@
         "collections_6L4MLB",
         "collections_kqfzRF"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
