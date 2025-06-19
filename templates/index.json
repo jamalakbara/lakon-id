@@ -244,6 +244,7 @@
         "image_block_3ncjxD",
         "image_block_GhGLDQ"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -252,6 +253,58 @@
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "4",
+        "swipe_on_mobile": false,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "collection_list_68qKcQ": {
+      "type": "collection-list",
+      "blocks": {
+        "image_block_VrdMAA": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_square_2_3.jpg",
+            "link_collection": "https://lakonindonesia.com/pages/about-lakon"
+          }
+        },
+        "image_block_8EwV8R": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_SQUARE_5.jpg",
+            "link_collection": "https://lakonindonesia.com/pages/pasar-malam"
+          }
+        },
+        "image_block_9ErUXM": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_SQUARE_6.jpg",
+            "link_collection": "https://lakonindonesia.com/pages/2024"
+          }
+        },
+        "image_block_DmmDjR": {
+          "type": "image_block",
+          "settings": {
+            "image_collection": "shopify://shop_images/WEBSITE_SQUARE_7.jpg",
+            "link_collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_block_VrdMAA",
+        "image_block_8EwV8R",
+        "image_block_9ErUXM",
+        "image_block_DmmDjR"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 4,
         "padding_bottom": 4
@@ -267,6 +320,7 @@
     "image_banner_custom_A8dzBj",
     "collection_list_Xtzp8M",
     "custom_liquid_8DxDP8",
-    "collection_list_TLCtde"
+    "collection_list_TLCtde",
+    "collection_list_68qKcQ"
   ]
 }
