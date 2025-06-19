@@ -244,7 +244,6 @@
         "image_block_3ncjxD",
         "image_block_GhGLDQ"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -296,6 +295,7 @@
         "image_block_9ErUXM",
         "image_block_DmmDjR"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
