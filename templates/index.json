@@ -16,12 +16,12 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/BANNER_3.jpg",
-            "image_link": "shopify://collections/christmas-collection",
+            "image_link": "shopify://collections/festive-collection",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/christmas-collection",
+            "link": "shopify://collections/festive-collection",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -40,7 +40,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify://collections/christmas-collection",
+            "link": "shopify://collections/festive-collection",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -72,7 +72,7 @@
       "settings": {
         "banner_image": "shopify://shop_images/DSC_9466_copy_1.jpg",
         "banner_image_mobile": "shopify://shop_images/DSC_9466_copy.jpg",
-        "banner_link": "shopify://collections/christmas-collection"
+        "banner_link": "shopify://collections/festive-collection"
       }
     },
     "video_background_4JUa3T": {
@@ -81,7 +81,7 @@
         "video_hN4XiA": {
           "type": "video",
           "settings": {
-            "video_link": "shopify://collections/christmas-collection",
+            "video_link": "shopify://collections/festive-collection",
             "video_image": "shopify://shop_images/DSC_9466_copy.jpg",
             "overlay_opacity": 0,
             "title": "",
@@ -169,7 +169,7 @@
         "featured_collection_dMqGxJ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "christmas-collection"
+            "collection": "festive-collection"
           }
         },
         "featured_collection_hWxDgX": {
