@@ -216,11 +216,11 @@
             "link_collection": "shopify://pages/about-lakon"
           }
         },
-        "image_block_GTmrpz": {
+        "image_block_UEaDG3": {
           "type": "image_block",
           "settings": {
-            "image_collection": "shopify://shop_images/WEBSITE_SQUARE_5.jpg",
-            "link_collection": "shopify://pages/pasar-malam"
+            "image_collection": "shopify://shop_images/Untitled_design_35.png",
+            "link_collection": ""
           }
         },
         "image_block_3ncjxD": {
@@ -240,7 +240,7 @@
       },
       "block_order": [
         "image_block_Xja4iG",
-        "image_block_GTmrpz",
+        "image_block_UEaDG3",
         "image_block_3ncjxD",
         "image_block_GhGLDQ"
       ],
